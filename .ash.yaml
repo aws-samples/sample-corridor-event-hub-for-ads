@@ -1,0 +1,159 @@
+# ASH (Automated Security Helper) configuration.
+#
+# WHY THIS FILE EXISTS: the first ASH run reported 29 secret findings across
+# detect-secrets and checkov, and every one of them is a false positive. Each is
+# suppressed BY RULE AND BY LINE below, with the reason it is not a secret. The
+# alternative - lowering the threshold or ignoring whole directories - would also
+# hide the finding that matters, which is a real credential landing in git.
+#
+# Bandit findings are NOT handled here. Those carry inline `# nosec <ID>` comments
+# next to the code, because the justification only makes sense beside the call it
+# excuses. This file is for the scanners whose findings sit in JSON and Markdown,
+# where a comment cannot go.
+#
+# TWO THINGS TO KNOW BEFORE ADDING AN ENTRY:
+#
+# 1. Line pins are deliberate. `line_start`/`line_end` are set to the same number so
+#    a suppression covers ONE line. config/sources.json exists to prove no
+#    credential is committed (ADR 0004), so suppressing the whole file by rule would
+#    disarm exactly the tripwire that file is there to provide. The captured tile
+#    fixture is the one exception, and says why.
+#
+# 2. Stale entries are reported, not silent. Every run writes
+#    .ash/ash_output/reports/ash.unused-suppressions.md. An entry listed there
+#    matched nothing - because a line moved or the finding is gone - and must be
+#    re-pinned or deleted rather than left to rot.
+#
+# Run with: ash --source-dir . (ASH v3; config is picked up from the repo root)
+
+project_name: corridor-event-hub-ads
+
+global_settings:
+  # MEDIUM is ASH's default. Left explicit so the 1,359 LOW B101 findings - asserts
+  # in the test suite, which is what asserts are for - stay visible in reports
+  # without failing the scan.
+  severity_threshold: MEDIUM
+
+  # INSTALLED DEPENDENCIES AND BUILD CACHES ARE NOT THIS REPOSITORY'S SOURCE.
+  #
+  # These trees are gitignored and absent from a fresh clone, so without this block
+  # the scan reports a different set of findings depending on whether someone has run
+  # `npm install` or made a venv. A single `pytest` run was enough to add 671
+  # findings - vendored test fixtures in botocore and numpy, a CACHEDIR.TAG hash -
+  # which is not a security signal, and 671 of them will bury the eight that are.
+  #
+  # NOT A GAP IN DEPENDENCY COVERAGE: vulnerable packages are found by npm-audit,
+  # grype and syft, which read manifests and lockfiles rather than walking these
+  # directories. Ignoring the installed tree does not hide a single CVE.
+  ignore_paths:
+    - path: "**/node_modules/**"
+      reason: Installed npm packages. Third-party source, gitignored, audited from the lockfile instead.
+    - path: "**/.venv/**"
+      reason: Python virtualenv. Third-party source, gitignored, per-machine.
+    - path: "**/__pycache__/**"
+      reason: Compiled Python bytecode.
+    - path: "**/.pytest_cache/**"
+      reason: pytest cache. Its CACHEDIR.TAG signature reads as a high-entropy hex secret.
+    - path: "**/.ruff_cache/**"
+      reason: ruff cache. Same CACHEDIR.TAG false positive.
+    - path: "**/cdk.out/**"
+      reason: Synthesized CloudFormation. Generated from lib/, which is scanned.
+
+  suppressions:
+    - rule_id: "SECRET-SECRET-KEYWORD"
+      path: "src/config/sources.json"
+      line_start: 13
+      line_end: 13
+      reason: >-
+        secretId: "corridor-event-hub/ok-odot-wzdx-token" - a Secrets Manager id, not a token.
+        This line USED TO HOLD THE TOKEN ITSELF (finding S-3); it now holds the
+        pointer that replaced it.
+    - rule_id: "CKV_SECRET_6"
+      path: "src/config/sources.json"
+      line_start: 13
+      line_end: 13
+      reason: Same ok-odot secretId pointer, reported again by checkov's detector.
+    - rule_id: "SECRET-SECRET-KEYWORD"
+      path: "src/config/sources.json"
+      line_start: 207
+      line_end: 207
+      reason: 'secretId: "corridor-event-hub/tx-dot-wzdx-key" - a Secrets Manager id, not a key.'
+    - rule_id: "CKV_SECRET_6"
+      path: "src/config/sources.json"
+      line_start: 207
+      line_end: 207
+      reason: Same tx-dot secretId pointer, reported again by checkov.
+    - rule_id: "SECRET-SECRET-KEYWORD"
+      path: "src/config/sources.json"
+      line_start: 260
+      line_end: 260
+      reason: 'secretId: "corridor-event-hub/az511-key" - a Secrets Manager id, not a key.'
+    - rule_id: "CKV_SECRET_6"
+      path: "src/config/sources.json"
+      line_start: 260
+      line_end: 260
+      reason: Same az511 secretId pointer, reported again by checkov.
+    - rule_id: "SECRET-SECRET-KEYWORD"
+      path: "src/docs/adr/0004-source-credentials-in-secrets-manager.md"
+      line_start: 78
+      line_end: 78
+      reason: >-
+        The ADR's own worked example of a catalog pointer. Suppressing the document
+        that establishes the rule, not a credential. Moved from line 31 by the
+        2026-08-17 amendment that withdrew the Oklahoma exception.
+    - rule_id: "SECRET-SECRET-KEYWORD"
+      path: "src/lib/spatial-stack.ts"
+      line_start: 120
+      line_end: 120
+      reason: >-
+        secretName for rds.Credentials.fromGeneratedSecret. RDS generates and owns
+        the password; this line only chooses where it lives.
+    - rule_id: "SECRET-SECRET-KEYWORD"
+      path: "src/scripts/db.sh"
+      line_start: 54
+      line_end: 54
+      reason: >-
+        The "cluster found but secret ... is missing" error message. Prose naming the
+        Secrets Manager id that describe-secret above failed to find. No value.
+        RE-PINNED 2026-08-17 from line 53, which had drifted onto the `if` above it -
+        exactly the rot the unused-suppressions report exists to catch, and it went
+        unnoticed because nothing in `npm run check` ran ASH. That is finding S-6.
+
+    # ---------------------------------------------------------------------------
+    # High-entropy strings that are not credentials.
+    # ---------------------------------------------------------------------------
+    - rule_id: "SECRET-BASE64-HIGH-ENTROPY-STRING"
+      path: "src/corridor_event_hub/core/ids.py"
+      line_start: 34
+      line_end: 34
+      reason: >-
+        _ALPHABET, the Crockford base32 symbol set. A 32-character constant with no
+        repeated character is maximum entropy by construction, and it is a public
+        encoding table - the ULID digits, printed in every id the system emits.
+
+    # WHOLE-FILE, and the only one: src/tests/fixtures/aws-location-traffic.json
+    # is 17 captured Mapbox Vector Tile payloads, base64 and nothing else. Line pins
+    # would be 18 entries that all say the same thing and all break the next time the
+    # fixture is recaptured.
+    #
+    # CHECKED, not assumed: the file holds no IAM credential. The AWS Access Key hit
+    # is a 20-character ASIA-prefixed run that falls out of the middle of tile 12's
+    # protobuf bytes, followed by no secret key. Verify with:
+    #
+    #   grep -oE 'AKIA[0-9A-Z]{16}' src/tests/fixtures/aws-location-traffic.json
+    #
+    # which returns nothing - there is no long-lived key here to leak, because the
+    # tile fetch is SigV4-signed by the deploying identity (ADR 0004).
+    - rule_id: "SECRET-BASE64-HIGH-ENTROPY-STRING"
+      path: "src/tests/fixtures/aws-location-traffic.json"
+      reason: >-
+        Captured vector tiles. Every finding is an mvtBase64 value - base64-encoded
+        protobuf map data, not a credential.
+    - rule_id: "SECRET-AWS-ACCESS-KEY"
+      path: "src/tests/fixtures/aws-location-traffic.json"
+      reason: >-
+        A chance ASIA-prefixed 20-character run inside tile 12's base64, matched by
+        the detector's temporary-credential pattern. Not an IAM credential; the tile
+        fetch is SigV4-signed and this file holds no static key. Detail in the comment
+        above - written there without quoting the literal, because quoting it makes
+        this config file itself a finding.

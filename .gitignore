@@ -1,0 +1,6 @@
+.DS_Store
+*.dtmp
+.$*
+.vscode
+.ash
+.claude/settings.local.json

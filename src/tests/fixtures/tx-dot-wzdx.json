@@ -1,0 +1,506 @@
+{
+ "type": "FeatureCollection",
+ "feed_info": {
+  "update_date": "2026-08-07T23:46:02.838Z",
+  "publisher": "TxDOT",
+  "contact_name": "Travel Division",
+  "contact_email": "trv-hcr@txdot.gov",
+  "version": "4.2",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "data_sources": [
+   {
+    "data_source_id": "df8119c5-356f-dfa1-1c58-30647d4cdf92",
+    "organization_name": "Texas Department of Transportation",
+    "contact_name": "Travel Division",
+    "contact_email": "trv-hcr@txdot.gov",
+    "update_frequency": 300,
+    "update_date": "2026-08-07T23:46:02.838Z"
+   }
+  ]
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -101.66647898360097,
+      35.20572695847801
+     ],
+     [
+      -101.66799444694662,
+      35.205525933364434
+     ],
+     [
+      -101.67134889270574,
+      35.20500371410026
+     ],
+     [
+      -101.67164611177395,
+      35.20496982007889
+     ],
+     [
+      -101.67412000133878,
+      35.20464871389466
+     ],
+     [
+      -101.67621945081505,
+      35.204337601731964
+     ],
+     [
+      -101.67641175285885,
+      35.204311674717474
+     ]
+    ],
+    "bbox": [
+     -101.67641175285885,
+     35.204311674717474,
+     -101.66647898360097,
+     35.20572695847801
+    ]
+   },
+   "id": "358c76ba-015b-5203-b1fa-b1b6613b1e02",
+   "properties": {
+    "core_details": {
+     "event_type": "work-zone",
+     "data_source_id": "df8119c5-356f-dfa1-1c58-30647d4cdf92",
+     "road_names": [
+      "IH0040"
+     ],
+     "name": "IH40",
+     "description": "- Left lane closed.<br/><br/><br/>I40 east and westbound left lanes are closed for construction at Spur 228",
+     "creation_date": "2026-07-24T13:20:01-05:00",
+     "update_date": "2026-07-24T13:20:01-05:00",
+     "direction": "westbound"
+    },
+    "start_date": "2026-07-24T18:17:00.000Z",
+    "end_date": "2026-08-31T22:00:00.000Z",
+    "is_start_date_verified": false,
+    "is_end_date_verified": false,
+    "is_start_position_verified": false,
+    "is_end_position_verified": false,
+    "location_method": "junction-method",
+    "vehicle_impact": "some-lanes-closed-merge-right",
+    "beginning_cross_street": "SS0228",
+    "ending_cross_street": "SS0228"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "ed83e9db-841a-5d0f-9c74-801a4eed6810",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -101.67641175285885,
+      35.204311674717474
+     ],
+     [
+      -101.67621945081505,
+      35.204337601731964
+     ],
+     [
+      -101.67412000133878,
+      35.20464871389466
+     ],
+     [
+      -101.67164611177395,
+      35.20496982007889
+     ],
+     [
+      -101.67134889270574,
+      35.20500371410026
+     ],
+     [
+      -101.66799444694662,
+      35.205525933364434
+     ],
+     [
+      -101.66647898360097,
+      35.20572695847801
+     ]
+    ]
+   },
+   "properties": {
+    "core_details": {
+     "event_type": "work-zone",
+     "data_source_id": "df8119c5-356f-dfa1-1c58-30647d4cdf92",
+     "road_names": [
+      "IH0040"
+     ],
+     "name": "IH40",
+     "description": "- Left lane closed.<br/><br/><br/>I40 east and westbound left lanes are closed for construction at Spur 228",
+     "creation_date": "2026-07-24T13:20:01-05:00",
+     "update_date": "2026-07-24T13:20:01-05:00",
+     "direction": "eastbound"
+    },
+    "start_date": "2026-07-24T18:17:00.000Z",
+    "end_date": "2026-08-31T22:00:00.000Z",
+    "is_start_date_verified": false,
+    "is_end_date_verified": false,
+    "is_start_position_verified": false,
+    "is_end_position_verified": false,
+    "location_method": "junction-method",
+    "vehicle_impact": "some-lanes-closed-merge-right",
+    "beginning_cross_street": "SS0228",
+    "ending_cross_street": "SS0228"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -101.743665441979,
+      35.19271781223597
+     ],
+     [
+      -101.74226890464654,
+      35.19272093031049
+     ],
+     [
+      -101.73782890458996,
+      35.19273759454848
+     ],
+     [
+      -101.73340335054048,
+      35.192801482793556
+     ],
+     [
+      -101.73008223774761,
+      35.19278315096651
+     ],
+     [
+      -101.72445223740847,
+      35.192815930270164
+     ],
+     [
+      -101.7237260382355,
+      35.19281671630877
+     ]
+    ],
+    "bbox": [
+     -101.743665441979,
+     35.19271781223597,
+     -101.7237260382355,
+     35.19281671630877
+    ]
+   },
+   "id": "d71e53a6-1094-562e-bad7-f7a5048de03c",
+   "properties": {
+    "core_details": {
+     "event_type": "work-zone",
+     "data_source_id": "df8119c5-356f-dfa1-1c58-30647d4cdf92",
+     "road_names": [
+      "IH0040"
+     ],
+     "name": "IH40",
+     "description": "- Frontage road only, main lanes are open.<br/><br/><br/>I40 frontage roads from Lakeside to Airport Blvd have right lane closures",
+     "creation_date": "2026-03-10T09:27:59-05:00",
+     "update_date": "2026-03-10T09:27:59-05:00",
+     "direction": "eastbound"
+    },
+    "start_date": "2026-03-10T14:25:00.000Z",
+    "end_date": "2027-03-31T22:00:00.000Z",
+    "is_start_date_verified": false,
+    "is_end_date_verified": false,
+    "is_start_position_verified": false,
+    "is_end_position_verified": false,
+    "location_method": "junction-method",
+    "vehicle_impact": "unknown",
+    "beginning_cross_street": "SL0335",
+    "ending_cross_street": "SS0468"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "539ed222-7b2f-5b37-bdca-6208b610f90b",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -101.7237260382355,
+      35.19281671630877
+     ],
+     [
+      -101.72445223740847,
+      35.192815930270164
+     ],
+     [
+      -101.73008223774761,
+      35.19278315096651
+     ],
+     [
+      -101.73340335054048,
+      35.192801482793556
+     ],
+     [
+      -101.73782890458996,
+      35.19273759454848
+     ],
+     [
+      -101.74226890464654,
+      35.19272093031049
+     ],
+     [
+      -101.743665441979,
+      35.19271781223597
+     ]
+    ]
+   },
+   "properties": {
+    "core_details": {
+     "event_type": "work-zone",
+     "data_source_id": "df8119c5-356f-dfa1-1c58-30647d4cdf92",
+     "road_names": [
+      "IH0040"
+     ],
+     "name": "IH40",
+     "description": "- Frontage road only, main lanes are open.<br/><br/><br/>I40 frontage roads from Lakeside to Airport Blvd have right lane closures",
+     "creation_date": "2026-03-10T09:27:59-05:00",
+     "update_date": "2026-03-10T09:27:59-05:00",
+     "direction": "westbound"
+    },
+    "start_date": "2026-03-10T14:25:00.000Z",
+    "end_date": "2027-03-31T22:00:00.000Z",
+    "is_start_date_verified": false,
+    "is_end_date_verified": false,
+    "is_start_position_verified": false,
+    "is_end_position_verified": false,
+    "location_method": "junction-method",
+    "vehicle_impact": "unknown",
+    "beginning_cross_street": "SL0335",
+    "ending_cross_street": "SS0468"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -97.26078763775853,
+      33.219287143404706
+     ],
+     [
+      -97.26060044673198,
+      33.21961468947407
+     ],
+     [
+      -97.26003267064894,
+      33.22057079767734
+     ],
+     [
+      -97.25988933162604,
+      33.2207808027228
+     ],
+     [
+      -97.25964170558356,
+      33.22109862879301
+     ]
+    ],
+    "bbox": [
+     -97.26078763775853,
+     33.219287143404706,
+     -97.25964170558356,
+     33.22109862879301
+    ]
+   },
+   "id": "75d9fe2e-cc83-59d6-a410-8788fda72821",
+   "properties": {
+    "core_details": {
+     "event_type": "work-zone",
+     "data_source_id": "df8119c5-356f-dfa1-1c58-30647d4cdf92",
+     "road_names": [
+      "FM0156"
+     ],
+     "name": "Construction",
+     "description": "- Travel lanes reduced to one lane.<br/><br/><br/>Work crews will be on FM 156 NB around the Old Stoney Rd. area to install deceleration lanes and intersections. Expect delays. Beginning Monday, June 22, 2026 through Friday, September 25, 2026. Daily 9 AM to 3:30 PM.",
+     "creation_date": "2026-06-16T16:05:37-05:00",
+     "update_date": "2026-06-16T16:05:37-05:00",
+     "direction": "northbound"
+    },
+    "start_date": "2026-06-22T14:00:00.000Z",
+    "end_date": "2026-09-25T20:30:00.000Z",
+    "is_start_date_verified": false,
+    "is_end_date_verified": false,
+    "is_start_position_verified": false,
+    "is_end_position_verified": false,
+    "location_method": "junction-method",
+    "vehicle_impact": "some-lanes-closed",
+    "beginning_cross_street": "US0380",
+    "ending_cross_street": "US0380"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -96.74550621309723,
+      32.94022764073662
+     ],
+     [
+      -96.7477636355616,
+      32.93845243830356
+     ],
+     [
+      -96.75234974549763,
+      32.934725768401144
+     ],
+     [
+      -96.7554408591318,
+      32.93226798780314
+     ],
+     [
+      -96.75915696689555,
+      32.92933576808846
+     ],
+     [
+      -96.76017641610682,
+      32.928559656897754
+     ],
+     [
+      -96.7608508592388,
+      32.92791910074758
+     ],
+     [
+      -96.76149752436227,
+      32.92725354359393
+     ],
+     [
+      -96.7620125264594,
+      32.92670465446796
+     ],
+     [
+      -96.76236641152488,
+      32.92630687537758
+     ],
+     [
+      -96.76285808060736,
+      32.92561354522538
+     ],
+     [
+      -96.76338161670058,
+      32.92496584508043
+     ]
+    ],
+    "bbox": [
+     -96.76338161670058,
+     32.92496584508043,
+     -96.74550621309723,
+     32.94022764073662
+    ]
+   },
+   "id": "6779e49a-165c-5ea2-bc25-0a98b94925bd",
+   "properties": {
+    "core_details": {
+     "event_type": "work-zone",
+     "data_source_id": "df8119c5-356f-dfa1-1c58-30647d4cdf92",
+     "road_names": [
+      "US0075"
+     ],
+     "name": "Central Expressway",
+     "description": "- Alternating lanes closed.<br/>- Motorists should expect delays.<br/><br/><br/>SB on ramps on LBJ+ 1 left lane from spring valley NB off ramp from 635/LBJ express lane + 2 left lanes from Midpark",
+     "creation_date": "2026-08-03T08:45:29-05:00",
+     "update_date": "2026-08-03T08:45:29-05:00",
+     "direction": "southbound"
+    },
+    "start_date": "2026-08-04T01:30:00.000Z",
+    "end_date": "2026-08-08T10:30:00.000Z",
+    "is_start_date_verified": false,
+    "is_end_date_verified": false,
+    "is_start_position_verified": false,
+    "is_end_position_verified": false,
+    "location_method": "junction-method",
+    "vehicle_impact": "alternating-one-way",
+    "beginning_cross_street": "IH0635",
+    "ending_cross_street": "IH0635"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "4afa6f90-ff7a-5a65-855c-521577e93a7c",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -96.76338161670058,
+      32.92496584508043
+     ],
+     [
+      -96.76285808060736,
+      32.92561354522538
+     ],
+     [
+      -96.76236641152488,
+      32.92630687537758
+     ],
+     [
+      -96.7620125264594,
+      32.92670465446796
+     ],
+     [
+      -96.76149752436227,
+      32.92725354359393
+     ],
+     [
+      -96.7608508592388,
+      32.92791910074758
+     ],
+     [
+      -96.76017641610682,
+      32.928559656897754
+     ],
+     [
+      -96.75915696689555,
+      32.92933576808846
+     ],
+     [
+      -96.7554408591318,
+      32.93226798780314
+     ],
+     [
+      -96.75234974549763,
+      32.934725768401144
+     ],
+     [
+      -96.7477636355616,
+      32.93845243830356
+     ],
+     [
+      -96.74550621309723,
+      32.94022764073662
+     ]
+    ]
+   },
+   "properties": {
+    "core_details": {
+     "event_type": "work-zone",
+     "data_source_id": "df8119c5-356f-dfa1-1c58-30647d4cdf92",
+     "road_names": [
+      "US0075"
+     ],
+     "name": "Central Expressway",
+     "description": "- Alternating lanes closed.<br/>- Motorists should expect delays.<br/><br/><br/>SB on ramps on LBJ+ 1 left lane from spring valley NB off ramp from 635/LBJ express lane + 2 left lanes from Midpark",
+     "creation_date": "2026-08-03T08:45:29-05:00",
+     "update_date": "2026-08-03T08:45:29-05:00",
+     "direction": "northbound"
+    },
+    "start_date": "2026-08-04T01:30:00.000Z",
+    "end_date": "2026-08-08T10:30:00.000Z",
+    "is_start_date_verified": false,
+    "is_end_date_verified": false,
+    "is_start_position_verified": false,
+    "is_end_position_verified": false,
+    "location_method": "junction-method",
+    "vehicle_impact": "alternating-one-way",
+    "beginning_cross_street": "IH0635",
+    "ending_cross_street": "IH0635"
+   }
+  }
+ ]
+}

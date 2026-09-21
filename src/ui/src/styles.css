@@ -1,0 +1,691 @@
+/*
+ * Strip UI styles.
+ *
+ * Event-class colours are chosen to stay distinguishable for the most common forms
+ * of colour-blindness: class is the primary encoding on the chart, so it cannot
+ * rely on red/green discrimination.
+ */
+
+:root {
+  --bg: #12161c;
+  --panel: #1a2029;
+  --panel-2: #212934;
+  --line: #2d3846;
+  --text: #e6edf5;
+  --dim: #8899ab;
+  --dimmer: #5d6b7d;
+  --accent: #58a6ff;
+  --warn: #d9a13b;
+  --bad: #e0605e;
+  --good: #56b98b;
+
+  --c-work_zone: #e8a33d;
+  --c-incident: #e0605e;
+  --c-closure: #c678dd;
+  --c-congestion: #d97757;
+  --c-weather: #4fa3d1;
+  --c-road_surface: #56b0a6;
+  --c-dimensional_restriction: #8b9bb4;
+  --c-truck_parking: #7ea45c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 13px/1.5 ui-sans-serif, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
+
+.wrap {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 20px 24px 60px;
+}
+
+.wrap.gate {
+  max-width: 560px;
+  padding-top: 80px;
+}
+
+header {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+header .spacer {
+  flex: 1;
+}
+
+h1 {
+  font-size: 17px;
+  font-weight: 620;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+.sub {
+  color: var(--dim);
+  font-size: 12px;
+}
+
+/* Freshness is deliberately loud when stale: a snapshot that looks live is the
+   thing this view must never do. */
+.freshness {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 9px;
+}
+.freshness.fresh {
+  background: #14352a;
+  color: #6ede9f;
+}
+.freshness.aging {
+  background: #33291a;
+  color: #e9bd6d;
+}
+.freshness.stale {
+  background: #3a1f1f;
+  color: #f08b89;
+}
+
+.banner {
+  margin: 14px 0 0;
+  padding: 9px 12px;
+  border-left: 3px solid var(--warn);
+  background: #2a2418;
+  color: #f0dcae;
+  font-size: 12px;
+  border-radius: 0 4px 4px 0;
+}
+.banner b {
+  color: var(--warn);
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 16px 0 10px;
+}
+.toolbar .spacer {
+  flex: 1;
+}
+
+button,
+select {
+  background: var(--panel-2);
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  padding: 5px 10px;
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+}
+button:hover,
+select:hover {
+  border-color: var(--dimmer);
+}
+button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+button.on {
+  background: #24405e;
+  border-color: var(--accent);
+  color: #cfe6ff;
+}
+button.primary {
+  background: #24405e;
+  border-color: var(--accent);
+  color: #cfe6ff;
+  padding: 8px 18px;
+  font-size: 13px;
+  margin-top: 16px;
+}
+button.link {
+  background: none;
+  border: none;
+  color: var(--accent);
+  padding: 0;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+label.chk {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--dim);
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: 16px;
+  align-items: start;
+}
+/* Nothing in the right rail - give the whole width to the strip, which is the one
+   thing on the page that gets more readable with every pixel it gains. */
+.layout.solo {
+  grid-template-columns: 1fr;
+}
+@media (max-width: 1150px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  padding: 12px 14px;
+}
+.card h2 {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--dim);
+  margin: 0 0 10px;
+  font-weight: 600;
+}
+
+svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.grid-line {
+  stroke: var(--line);
+  stroke-width: 1;
+}
+.state-line {
+  stroke: var(--dimmer);
+  stroke-width: 1;
+  stroke-dasharray: 3 3;
+}
+.axis-text {
+  fill: var(--dim);
+  font-size: 10px;
+}
+.state-label {
+  fill: var(--text);
+  font-size: 11px;
+}
+.row-label {
+  fill: var(--text);
+  font-size: 11px;
+}
+.row-label.merged {
+  font-weight: 620;
+}
+.row-sub {
+  fill: var(--dimmer);
+  font-size: 9px;
+}
+.band-label {
+  fill: var(--dimmer);
+  font-size: 8.5px;
+}
+.row-empty {
+  fill: var(--dimmer);
+  font-size: 9px;
+}
+
+.bar {
+  cursor: pointer;
+}
+.bar:hover {
+  stroke: #fff;
+  stroke-width: 1.5;
+}
+.bar.sel {
+  stroke: #fff;
+  stroke-width: 2;
+}
+.bar.dim {
+  opacity: 0.18;
+}
+
+.merge-link {
+  stroke: var(--good);
+  stroke-width: 1.2;
+  stroke-dasharray: 2 2;
+  fill: none;
+  opacity: 0.75;
+}
+.review-link {
+  stroke: var(--warn);
+  stroke-width: 1.2;
+  stroke-dasharray: 1 3;
+  fill: none;
+  opacity: 0.7;
+}
+.truck {
+  fill: var(--accent);
+}
+.truck-cone {
+  fill: var(--accent);
+  opacity: 0.11;
+}
+.truck-line {
+  stroke: var(--accent);
+  stroke-width: 1;
+  stroke-dasharray: 4 3;
+}
+
+.legend {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 11px;
+  color: var(--dim);
+}
+.legend > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+}
+.legend .hint {
+  white-space: normal;
+  color: var(--dimmer);
+}
+.swatch {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+th,
+td {
+  text-align: left;
+  padding: 4px 6px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+th {
+  color: var(--dim);
+  font-weight: 600;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+td.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+td.row-sub {
+  font-size: 11px;
+  color: var(--dimmer);
+}
+td.warn-text {
+  color: var(--warn);
+  padding-top: 0;
+}
+td.dimmer {
+  color: var(--dimmer);
+  padding-top: 0;
+}
+
+.kv {
+  display: grid;
+  grid-template-columns: 118px 1fr;
+  gap: 3px 10px;
+  font-size: 12px;
+  margin: 0;
+}
+.kv dt {
+  color: var(--dim);
+}
+.kv dd {
+  margin: 0;
+  word-break: break-word;
+}
+
+/* The selection panel is full-width under the strip, so its contents run in
+   columns rather than one tall stack that pushes the tables out of view. */
+.detail-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  align-items: start;
+}
+@media (max-width: 760px) {
+  .detail-cols {
+    grid-template-columns: 1fr;
+  }
+}
+.detail-cols h2:first-child {
+  margin-top: 0;
+}
+
+.pill {
+  display: inline-block;
+  padding: 1px 7px;
+  border-radius: 9px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.pill.live {
+  background: #14352a;
+  color: #6ede9f;
+}
+.pill.fixture {
+  background: #33291a;
+  color: #e9bd6d;
+}
+.pill.failed {
+  background: #3a1f1f;
+  color: #f08b89;
+}
+
+.bar-meter {
+  height: 5px;
+  background: var(--panel-2);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.bar-meter > div {
+  height: 100%;
+  background: var(--accent);
+}
+
+.mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 11px;
+}
+
+.explain {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  color: var(--dim);
+}
+.explain li {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 10.5px;
+  padding: 1px 0;
+}
+.explain li.total {
+  color: var(--text);
+  border-top: 1px solid var(--line);
+  margin-top: 3px;
+  padding-top: 3px;
+}
+.explain li.gate {
+  color: var(--warn);
+}
+
+/* ---------------------------------------------------------------------------
+   Event timeline and trust chips.
+
+   Grade colours reuse --good/--warn/--bad, but a grade is NEVER encoded by colour
+   alone: every chip carries its label and its observed value as text, and the
+   headline pill spells the grade out in words. A red-green-only trust indicator
+   would be unreadable to the same viewers the strip's class palette was chosen for.
+   --------------------------------------------------------------------------- */
+.timeline {
+  background: var(--panel-2);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 8px 10px 10px;
+}
+
+.tl-span {
+  rx: 2;
+}
+.tl-span.agency {
+  fill: #3a4a5e;
+  stroke: #4e627a;
+  stroke-width: 1;
+}
+.tl-span.lifecycle {
+  fill: #2f4438;
+  stroke: var(--good);
+  stroke-width: 1;
+}
+/* Open-ended: no right-hand edge, because there is no reported end to draw. */
+.tl-span.open {
+  stroke-dasharray: 3 3;
+}
+.tl-span-label {
+  fill: var(--text);
+  font-size: 9px;
+  pointer-events: none;
+}
+/* An arrow at the plot edge means "continues past here", never "ends here". */
+.tl-span-cap {
+  fill: var(--dim);
+  font-size: 10px;
+  font-weight: 700;
+}
+.tl-span-offscreen {
+  fill: var(--dim);
+  font-size: 9px;
+  font-style: italic;
+}
+
+.tl-mark-line {
+  stroke: var(--dim);
+  stroke-width: 1;
+}
+.tl-mark-dot {
+  fill: var(--dim);
+}
+/* A ring around a mark that stands for several records, so a collapsed group is not
+   mistaken for a single observation. */
+.tl-mark-group {
+  fill: none;
+  stroke: var(--dim);
+  stroke-width: 1;
+  opacity: 0.55;
+}
+.tl-mark-label {
+  fill: var(--dim);
+  font-size: 9px;
+}
+.tl-mark.warn .tl-mark-dot,
+.tl-mark.warn .tl-mark-label {
+  fill: var(--warn);
+}
+.tl-mark.warn .tl-mark-line {
+  stroke: var(--warn);
+}
+.tl-mark.bad .tl-mark-dot,
+.tl-mark.bad .tl-mark-label {
+  fill: var(--bad);
+}
+.tl-mark.bad .tl-mark-line {
+  stroke: var(--bad);
+}
+
+.tl-now {
+  stroke: var(--accent);
+  stroke-width: 1.5;
+}
+.tl-now-label {
+  fill: var(--accent);
+  font-size: 9px;
+  font-weight: 600;
+}
+
+.tl-decay-bg {
+  fill: #171d25;
+  stroke: var(--line);
+  stroke-width: 1;
+}
+.tl-decay-line {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 1.6;
+}
+/* The instant the score was taken. Nothing is plotted to its left because nothing is
+   known there - see DecayCurve. */
+.tl-decay-start {
+  stroke: var(--dimmer);
+  stroke-width: 1;
+}
+.tl-decay-floor {
+  stroke: var(--dimmer);
+  stroke-width: 1;
+  stroke-dasharray: 2 3;
+}
+.tl-decay-threshold {
+  stroke: var(--warn);
+  stroke-width: 1;
+  stroke-dasharray: 5 3;
+  opacity: 0.8;
+}
+.tl-decay-tick {
+  fill: var(--dimmer);
+  font-size: 8.5px;
+}
+.tl-decay-tick.warn {
+  fill: var(--warn);
+}
+.tl-decay-cross {
+  fill: var(--warn);
+}
+.tl-decay-now {
+  fill: var(--accent);
+}
+.tl-decay-value {
+  fill: var(--text);
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.tl-caveat {
+  border-top: 1px solid var(--line);
+  padding-top: 7px;
+}
+.tl-caveat b {
+  color: var(--warn);
+}
+
+.trust {
+  margin-top: 10px;
+  border-top: 1px solid var(--line);
+  padding-top: 9px;
+}
+.trust-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 7px;
+}
+.row-sub-text {
+  color: var(--dimmer);
+  font-size: 10.5px;
+}
+.trust-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.chip {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  border-left-width: 3px;
+  cursor: help;
+}
+.chip-label {
+  color: var(--dimmer);
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.chip-value {
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.chip.grade-good {
+  border-left-color: var(--good);
+}
+.chip.grade-warn {
+  border-left-color: var(--warn);
+}
+.chip.grade-bad {
+  border-left-color: var(--bad);
+}
+.chip.grade-unknown {
+  border-left-color: var(--dimmer);
+}
+.chip.grade-bad .chip-value {
+  color: #f08b89;
+}
+.chip.grade-warn .chip-value {
+  color: #e9bd6d;
+}
+
+.pill.grade-good {
+  background: #14352a;
+  color: #6ede9f;
+}
+.pill.grade-warn {
+  background: #33291a;
+  color: #e9bd6d;
+}
+.pill.grade-bad {
+  background: #3a1f1f;
+  color: #f08b89;
+}
+.pill.grade-unknown {
+  background: var(--panel-2);
+  color: var(--dim);
+}
+
+.warn-inline {
+  color: var(--warn);
+  font-weight: 600;
+}
+
+.lifecycle-next h2:first-child {
+  margin-top: 0;
+}
+
+.empty {
+  color: var(--dimmer);
+  font-style: italic;
+  font-size: 12px;
+}
+.note {
+  color: var(--dim);
+  font-size: 11px;
+  margin-top: 8px;
+}
+footer {
+  margin-top: 22px;
+  color: var(--dimmer);
+  font-size: 11px;
+  line-height: 1.7;
+}

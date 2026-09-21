@@ -1,0 +1,36 @@
+# Accepted dependency advisories, for scripts/check-deps.sh.
+#
+# Format, three fields, all required:
+#
+#   <package name> :: <advisory id or url fragment> :: <why it is accepted>
+#
+# EMPTY IS THE CORRECT STATE, and it is the state today. Every high and critical
+# advisory the audit has raised so far has been fixed rather than accepted:
+#
+#   brace-expansion, GHSA-rgw5-rvv9-x895 (high, DoS via unbounded intermediate
+#   arrays). Reached only as a bundled transitive dependency of aws-cdk-lib via
+#   minimatch, so `npm audit fix` reported it as unfixable - the patched
+#   brace-expansion 5.0.9 ships INSIDE the aws-cdk-lib tarball rather than being
+#   resolvable on its own. Fixed by moving aws-cdk-lib 2.264.0 -> 2.265.0, which was
+#   already inside the declared `^2.264.0` range and bundles 5.0.9. Nothing to accept.
+#
+# THIS FILE EXISTS FOR THE ADVISORY THAT CANNOT BE FIXED, which will arrive: a bundled
+# dependency with no upstream release yet, or a finding that genuinely does not apply
+# to how this code calls the package. Without a written way to say so, the outcome is
+# that somebody removes the audit from `npm run check`, and then nothing is watched at
+# all - the same failure as the two alarms that read OK because they could never
+# receive a datapoint.
+#
+# TWO RULES.
+#
+# 1. The reason has to be evaluable by someone who did not write it. "Not exploitable"
+#    is not a reason; "the advisory is a ReDoS in a parser this code never reaches -
+#    the package is used only for X at build time" is. Name the reachability argument.
+#
+# 2. A STALE ENTRY FAILS THE CHECK. An acceptance that matches no live advisory is a
+#    written exception standing open, and the next reader takes it as evidence the
+#    package was reviewed. When the advisory is fixed, delete the line.
+#
+# Example of a well-formed entry, commented out because it does not apply:
+#
+# some-package :: GHSA-xxxx-xxxx-xxxx :: ReDoS in the package's YAML front-matter parser. This build imports only its `format()` helper, called on internally-generated strings at synth time; no request-derived input reaches the package. Re-check when 3.x ships.

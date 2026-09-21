@@ -1,0 +1,687 @@
+{
+ "@context": [
+  "https://geojson.org/geojson-ld/geojson-context.jsonld",
+  {
+   "@version": "1.1",
+   "wx": "https://api.weather.gov/ontology#",
+   "@vocab": "https://api.weather.gov/ontology#"
+  }
+ ],
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4712c4523e0cf33dfdf83a3d479575275563c81a.001.1",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -104.92,
+       30.67
+      ],
+      [
+       -104.92,
+       30.68
+      ],
+      [
+       -104.57,
+       30.75
+      ],
+      [
+       -104.49,
+       30.59
+      ],
+      [
+       -104.85,
+       30.42
+      ],
+      [
+       -104.87,
+       30.44
+      ],
+      [
+       -104.87,
+       30.49
+      ],
+      [
+       -104.9,
+       30.57
+      ],
+      [
+       -104.92,
+       30.59
+      ],
+      [
+       -104.92,
+       30.61
+      ],
+      [
+       -104.93,
+       30.6
+      ],
+      [
+       -104.97,
+       30.61
+      ],
+      [
+       -104.98,
+       30.63
+      ],
+      [
+       -104.92,
+       30.67
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4712c4523e0cf33dfdf83a3d479575275563c81a.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.4712c4523e0cf33dfdf83a3d479575275563c81a.001.1",
+    "areaDesc": "Marfa Plateau; Presidio Valley",
+    "geocode": {
+     "SAME": [
+      "048243",
+      "048377",
+      "048109"
+     ],
+     "UGC": [
+      "TXZ276",
+      "TXZ281"
+     ]
+    },
+    "affectedZones": [
+     "https://api.weather.gov/zones/forecast/TXZ276",
+     "https://api.weather.gov/zones/forecast/TXZ281"
+    ],
+    "references": [],
+    "sent": "2026-08-07T17:15:00-05:00",
+    "effective": "2026-08-07T17:15:00-05:00",
+    "onset": "2026-08-07T17:15:00-05:00",
+    "expires": "2026-08-07T18:00:00-05:00",
+    "ends": null,
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Moderate",
+    "certainty": "Observed",
+    "urgency": "Expected",
+    "event": "Special Weather Statement",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Midland/Odessa TX",
+    "headline": "Special Weather Statement issued August 7 at 5:15PM CDT by NWS Midland/Odessa TX",
+    "description": "At 515 PM CDT, Doppler radar was tracking a strong thunderstorm 9\nmiles northwest of Valentine, or 29 miles southeast of Van Horn,\nmoving west at 40 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph and penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nValentine.",
+    "instruction": "If outdoors, consider seeking shelter inside a building.\n\nThis storm may intensify, so be certain to monitor local radio\nstations and available television stations for additional information\nand possible warnings from the National Weather Service.",
+    "response": "Execute",
+    "note": null,
+    "parameters": {
+     "AWIPSidentifier": [
+      "SPSMAF"
+     ],
+     "WMOidentifier": [
+      "WWUS84 KMAF 072215"
+     ],
+     "NWSheadline": [
+      "A STRONG THUNDERSTORM WILL IMPACT SOUTHWESTERN JEFF DAVIS... NORTHWESTERN PRESIDIO AND SOUTHWESTERN CULBERSON COUNTIES THROUGH 600 PM CDT"
+     ],
+     "eventMotionDescription": [
+      "2026-08-07T22:15:00-00:00...storm...068DEG...35KT...30.64,-104.64"
+     ],
+     "maxWindGust": [
+      "55 MPH"
+     ],
+     "maxHailSize": [
+      "0.75"
+     ],
+     "BLOCKCHANNEL": [
+      "EAS",
+      "NWEM",
+      "CMAS"
+     ],
+     "EAS-ORG": [
+      "WXR"
+     ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+     "SAME": [
+      "SPS"
+     ],
+     "NationalWeatherService": [
+      "SPS"
+     ]
+    }
+   }
+  },
+  {
+   "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.97d5f898cc82d8f2babbdf00e781f4f04949916b.001.1",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -105.94,
+       33.39
+      ],
+      [
+       -105.97,
+       33
+      ],
+      [
+       -106.33,
+       32.99
+      ],
+      [
+       -106.33,
+       33.39
+      ],
+      [
+       -105.94,
+       33.39
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.97d5f898cc82d8f2babbdf00e781f4f04949916b.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.97d5f898cc82d8f2babbdf00e781f4f04949916b.001.1",
+    "areaDesc": "East Central Tularosa Basin/Alamogordo",
+    "geocode": {
+     "SAME": [
+      "035035"
+     ],
+     "UGC": [
+      "NMZ428"
+     ]
+    },
+    "affectedZones": [
+     "https://api.weather.gov/zones/forecast/NMZ428"
+    ],
+    "references": [],
+    "sent": "2026-08-07T16:14:00-06:00",
+    "effective": "2026-08-07T16:14:00-06:00",
+    "onset": "2026-08-07T16:14:00-06:00",
+    "expires": "2026-08-07T16:45:00-06:00",
+    "ends": null,
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Moderate",
+    "certainty": "Observed",
+    "urgency": "Expected",
+    "event": "Special Weather Statement",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS El Paso Tx/Santa Teresa NM",
+    "headline": "Special Weather Statement issued August 7 at 4:14PM MDT by NWS El Paso Tx/Santa Teresa NM",
+    "description": "At 414 PM MDT, Doppler radar was tracking a strong thunderstorm 4\nmiles northwest of Tularosa, moving west at 20 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nThree Rivers, Tularosa, and Three Rivers Petroglyph Site.\n\nThis includes Highway 54 in New Mexico between mile markers 74 and\n100.",
+    "instruction": "If outdoors, consider seeking shelter inside a building.",
+    "response": "Execute",
+    "note": null,
+    "parameters": {
+     "AWIPSidentifier": [
+      "SPSEPZ"
+     ],
+     "WMOidentifier": [
+      "WWUS84 KEPZ 072214"
+     ],
+     "NWSheadline": [
+      "A STRONG THUNDERSTORM WILL IMPACT NORTHWESTERN OTERO COUNTY THROUGH 445 PM MDT"
+     ],
+     "eventMotionDescription": [
+      "2026-08-07T22:14:00-00:00...storm...089DEG...17KT...33.13,-106.06"
+     ],
+     "maxWindGust": [
+      "55 MPH"
+     ],
+     "maxHailSize": [
+      "0.25"
+     ],
+     "BLOCKCHANNEL": [
+      "EAS",
+      "NWEM",
+      "CMAS"
+     ],
+     "EAS-ORG": [
+      "WXR"
+     ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+     "SAME": [
+      "SPS"
+     ],
+     "NationalWeatherService": [
+      "SPS"
+     ]
+    }
+   }
+  },
+  {
+   "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.00130e9ed090c11acd3437c355571edd312f0d38.001.1",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -96.91,
+       33.96
+      ],
+      [
+       -96.88,
+       33.87
+      ],
+      [
+       -96.76,
+       33.82
+      ],
+      [
+       -96.67,
+       33.92
+      ],
+      [
+       -96.59,
+       33.9
+      ],
+      [
+       -96.63,
+       33.85
+      ],
+      [
+       -96.43,
+       33.78
+      ],
+      [
+       -96.35,
+       33.69
+      ],
+      [
+       -96.29,
+       33.77
+      ],
+      [
+       -96.19,
+       33.75
+      ],
+      [
+       -96.15,
+       33.84
+      ],
+      [
+       -96.08,
+       33.85
+      ],
+      [
+       -95.86,
+       33.62
+      ],
+      [
+       -97.48,
+       33.5
+      ],
+      [
+       -97.48,
+       33.91
+      ],
+      [
+       -97.46,
+       33.83
+      ],
+      [
+       -97.38,
+       33.82
+      ],
+      [
+       -97.21,
+       33.92
+      ],
+      [
+       -97.14,
+       33.72
+      ],
+      [
+       -96.98,
+       33.96
+      ],
+      [
+       -96.91,
+       33.96
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.00130e9ed090c11acd3437c355571edd312f0d38.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.00130e9ed090c11acd3437c355571edd312f0d38.001.1",
+    "areaDesc": "Cooke; Grayson; Fannin",
+    "geocode": {
+     "SAME": [
+      "048097",
+      "048181",
+      "048147"
+     ],
+     "UGC": [
+      "TXZ092",
+      "TXZ093",
+      "TXZ094"
+     ]
+    },
+    "affectedZones": [
+     "https://api.weather.gov/zones/forecast/TXZ092",
+     "https://api.weather.gov/zones/forecast/TXZ093",
+     "https://api.weather.gov/zones/forecast/TXZ094"
+    ],
+    "references": [],
+    "sent": "2026-08-07T17:07:00-05:00",
+    "effective": "2026-08-07T17:07:00-05:00",
+    "onset": "2026-08-07T17:07:00-05:00",
+    "expires": "2026-08-07T18:00:00-05:00",
+    "ends": null,
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Moderate",
+    "certainty": "Observed",
+    "urgency": "Expected",
+    "event": "Special Weather Statement",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Fort Worth TX",
+    "headline": "Special Weather Statement issued August 7 at 5:07PM CDT by NWS Fort Worth TX",
+    "description": "At 506 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Durant, Oklahoma to near Burneyville,\nOklahoma. Movement was southeast at 30 mph.\n\nHAZARD...Wind gusts up to 50 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nSherman, Gainesville, Bonham, Whitesboro, Denison, Pottsboro,\nCollinsville, Muenster, Bells, Lindsay, Savoy, Callisburg, Knollwood,\nRavenna, Dorchester, Lake Bonham, Valley Lake, Randell Lake, Lake\nKiowa, and Eisenhower State Park.\n\nThis includes Interstate 35 between mile markers 489 and 503.",
+    "instruction": "If outdoors, consider seeking shelter inside a building.\n\nIf on or near Lake Texoma, get out of the water and move indoors or\ninside a vehicle. Remember, lightning can strike out to 10 miles\nfrom the parent thunderstorm. If you can hear thunder, you are close\nenough to be struck by lightning. Move to safe shelter now! Do not\nbe caught on the water in a thunderstorm.",
+    "response": "Execute",
+    "note": null,
+    "parameters": {
+     "AWIPSidentifier": [
+      "SPSFWD"
+     ],
+     "WMOidentifier": [
+      "WWUS84 KFWD 072207"
+     ],
+     "NWSheadline": [
+      "Strong thunderstorms will impact portions of Cooke, Grayson and central Fannin Counties through 600 PM CDT"
+     ],
+     "eventMotionDescription": [
+      "2026-08-07T22:06:00-00:00...storm...325DEG...25KT...34.02,-96.31 33.93,-97.22"
+     ],
+     "maxWindGust": [
+      "50 MPH"
+     ],
+     "maxHailSize": [
+      "0.00"
+     ],
+     "BLOCKCHANNEL": [
+      "EAS",
+      "NWEM",
+      "CMAS"
+     ],
+     "EAS-ORG": [
+      "WXR"
+     ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+     "SAME": [
+      "SPS"
+     ],
+     "NationalWeatherService": [
+      "SPS"
+     ]
+    }
+   }
+  },
+  {
+   "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.03e1ad7446159c2684e4f3017c9dab02a8e70931.002.1",
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.03e1ad7446159c2684e4f3017c9dab02a8e70931.002.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.03e1ad7446159c2684e4f3017c9dab02a8e70931.002.1",
+    "areaDesc": "Kiowa; Jackson; Tillman; Wilbarger; Wichita; Archer; Clay",
+    "geocode": {
+     "SAME": [
+      "040075",
+      "040065",
+      "040141",
+      "048487",
+      "048485",
+      "048009",
+      "048077"
+     ],
+     "UGC": [
+      "OKZ035",
+      "OKZ036",
+      "OKZ037",
+      "TXZ085",
+      "TXZ086",
+      "TXZ089",
+      "TXZ090"
+     ]
+    },
+    "affectedZones": [
+     "https://api.weather.gov/zones/forecast/OKZ035",
+     "https://api.weather.gov/zones/forecast/OKZ036",
+     "https://api.weather.gov/zones/forecast/OKZ037",
+     "https://api.weather.gov/zones/forecast/TXZ085",
+     "https://api.weather.gov/zones/forecast/TXZ086",
+     "https://api.weather.gov/zones/forecast/TXZ089",
+     "https://api.weather.gov/zones/forecast/TXZ090"
+    ],
+    "references": [
+     {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.04d71acdf774597ce49ceb0c45cb9db94615fbd1.001.2",
+      "identifier": "urn:oid:2.49.0.1.840.0.04d71acdf774597ce49ceb0c45cb9db94615fbd1.001.2",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "sent": "2026-08-07T11:45:00-05:00"
+     },
+     {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d879323be4ebfc0dd69333d0219dc3db97d83244.002.1",
+      "identifier": "urn:oid:2.49.0.1.840.0.d879323be4ebfc0dd69333d0219dc3db97d83244.002.1",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "sent": "2026-08-07T14:52:00-05:00"
+     }
+    ],
+    "sent": "2026-08-07T17:04:00-05:00",
+    "effective": "2026-08-07T17:04:00-05:00",
+    "onset": "2026-08-07T17:04:00-05:00",
+    "expires": "2026-08-08T07:15:00-05:00",
+    "ends": "2026-08-07T20:00:00-05:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Moderate",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Heat Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Norman OK",
+    "headline": "Heat Advisory issued August 7 at 5:04PM CDT until August 7 at 8:00PM CDT by NWS Norman OK",
+    "description": "* WHAT...For the Heat Advisory on Friday, heat index values up to\n105. For the Heat Advisory on Saturday, heat index values up to 107\nexpected.\n\n* WHERE...In Oklahoma, Jackson, Kiowa, and Tillman Counties. In\nTexas, Archer, Clay, Wichita, and Wilbarger Counties.\n\n* WHEN...For the first Heat Advisory, until 8 PM CDT this evening.\nFor the second Heat Advisory, from noon to 8 PM CDT Saturday.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses.",
+    "instruction": "Drink plenty of fluids, stay in an air-conditioned room, stay out of\nthe sun, and check up on relatives and neighbors.",
+    "response": "Execute",
+    "note": null,
+    "parameters": {
+     "AWIPSidentifier": [
+      "NPWOUN"
+     ],
+     "WMOidentifier": [
+      "WWUS74 KOUN 072204"
+     ],
+     "NWSheadline": [
+      "HEAT ADVISORY REMAINS IN EFFECT UNTIL 8 PM CDT THIS EVENING... ...HEAT ADVISORY REMAINS IN EFFECT FROM NOON TO 8 PM CDT SATURDAY"
+     ],
+     "BLOCKCHANNEL": [
+      "EAS",
+      "NWEM",
+      "CMAS"
+     ],
+     "VTEC": [
+      "/O.CON.KOUN.HT.Y.0029.000000T0000Z-260808T0100Z/"
+     ],
+     "eventEndingTime": [
+      "2026-08-07T20:00:00-05:00"
+     ],
+     "expiredReferences": [
+      "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.cda4644bfff4cc6e91200671655f575a6a401881.001.1,2026-08-07T02:34:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.07793ebbab422bab2871d6eb590970a531605dd9.001.1,2026-08-06T22:05:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.4b7f564a10cd3974e49dfdcfeb87ce6bc7bcd9ce.003.1,2026-08-06T19:09:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.4b7f564a10cd3974e49dfdcfeb87ce6bc7bcd9ce.001.2,2026-08-06T19:09:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ca83bc05f5695988ff838a7c5cd8b109bc710c05.005.1,2026-08-06T15:40:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ca83bc05f5695988ff838a7c5cd8b109bc710c05.003.2,2026-08-06T15:40:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b8ddd1f3d7b40ba91c321cd31bf3b064270f5803.002.1,2026-08-06T13:30:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b8ddd1f3d7b40ba91c321cd31bf3b064270f5803.001.1,2026-08-06T13:30:00-05:00"
+     ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+     "SAME": [
+      "NWS"
+     ],
+     "NationalWeatherService": [
+      "HTY"
+     ]
+    }
+   }
+  },
+  {
+   "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.03e1ad7446159c2684e4f3017c9dab02a8e70931.001.2",
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.03e1ad7446159c2684e4f3017c9dab02a8e70931.001.2",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.03e1ad7446159c2684e4f3017c9dab02a8e70931.001.2",
+    "areaDesc": "Hughes; Comanche; Stephens; Murray; Pontotoc; Coal; Cotton; Jefferson; Carter; Johnston; Atoka; Love; Marshall; Bryan",
+    "geocode": {
+     "SAME": [
+      "040063",
+      "040031",
+      "040137",
+      "040099",
+      "040123",
+      "040029",
+      "040033",
+      "040067",
+      "040019",
+      "040069",
+      "040005",
+      "040085",
+      "040095",
+      "040013"
+     ],
+     "UGC": [
+      "OKZ032",
+      "OKZ038",
+      "OKZ039",
+      "OKZ041",
+      "OKZ042",
+      "OKZ043",
+      "OKZ044",
+      "OKZ045",
+      "OKZ046",
+      "OKZ047",
+      "OKZ048",
+      "OKZ050",
+      "OKZ051",
+      "OKZ052"
+     ]
+    },
+    "affectedZones": [
+     "https://api.weather.gov/zones/forecast/OKZ032",
+     "https://api.weather.gov/zones/forecast/OKZ038",
+     "https://api.weather.gov/zones/forecast/OKZ039",
+     "https://api.weather.gov/zones/forecast/OKZ041",
+     "https://api.weather.gov/zones/forecast/OKZ042",
+     "https://api.weather.gov/zones/forecast/OKZ043",
+     "https://api.weather.gov/zones/forecast/OKZ044",
+     "https://api.weather.gov/zones/forecast/OKZ045",
+     "https://api.weather.gov/zones/forecast/OKZ046",
+     "https://api.weather.gov/zones/forecast/OKZ047",
+     "https://api.weather.gov/zones/forecast/OKZ048",
+     "https://api.weather.gov/zones/forecast/OKZ050",
+     "https://api.weather.gov/zones/forecast/OKZ051",
+     "https://api.weather.gov/zones/forecast/OKZ052"
+    ],
+    "references": [
+     {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.04d71acdf774597ce49ceb0c45cb9db94615fbd1.001.1",
+      "identifier": "urn:oid:2.49.0.1.840.0.04d71acdf774597ce49ceb0c45cb9db94615fbd1.001.1",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "sent": "2026-08-07T11:45:00-05:00"
+     },
+     {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d879323be4ebfc0dd69333d0219dc3db97d83244.002.2",
+      "identifier": "urn:oid:2.49.0.1.840.0.d879323be4ebfc0dd69333d0219dc3db97d83244.002.2",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "sent": "2026-08-07T14:52:00-05:00"
+     }
+    ],
+    "sent": "2026-08-07T17:04:00-05:00",
+    "effective": "2026-08-07T17:04:00-05:00",
+    "onset": "2026-08-08T12:00:00-05:00",
+    "expires": "2026-08-08T07:15:00-05:00",
+    "ends": "2026-08-08T20:00:00-05:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Moderate",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Heat Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Norman OK",
+    "headline": "Heat Advisory issued August 7 at 5:04PM CDT until August 8 at 8:00PM CDT by NWS Norman OK",
+    "description": "* WHAT...Heat index values up to 107 expected.\n\n* WHERE...Portions of east central, southeast, southern, and\nsouthwest Oklahoma.\n\n* WHEN...From noon to 8 PM CDT Saturday.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses.",
+    "instruction": "Drink plenty of fluids, stay in an air-conditioned room, stay out of\nthe sun, and check up on relatives and neighbors.",
+    "response": "Execute",
+    "note": null,
+    "parameters": {
+     "AWIPSidentifier": [
+      "NPWOUN"
+     ],
+     "WMOidentifier": [
+      "WWUS74 KOUN 072204"
+     ],
+     "NWSheadline": [
+      "HEAT ADVISORY IS CANCELLED FOR THIS EVENING... ...HEAT ADVISORY REMAINS IN EFFECT FROM NOON TO 8 PM CDT SATURDAY"
+     ],
+     "BLOCKCHANNEL": [
+      "EAS",
+      "NWEM",
+      "CMAS"
+     ],
+     "VTEC": [
+      "/O.CON.KOUN.HT.Y.0030.260808T1700Z-260809T0100Z/"
+     ],
+     "eventEndingTime": [
+      "2026-08-08T20:00:00-05:00"
+     ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+     "SAME": [
+      "NWS"
+     ],
+     "NationalWeatherService": [
+      "HTY"
+     ]
+    }
+   }
+  }
+ ],
+ "title": "Current watches, warnings, and advisories for Arizona, New Mexico, Texas, Oklahoma",
+ "updated": "2026-08-07T22:16:22+00:00"
+}

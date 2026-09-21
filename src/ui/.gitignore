@@ -1,0 +1,5 @@
+node_modules/
+dist/
+# Real Cognito ids and any local overrides - never committed.
+.env.local
+.env*.local

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="290" viewBox="0 0 660 290" role="img"
+     aria-label="Event-class colour palette used by the strip UI: work_zone e8a33d, incident e0605e, closure c678dd, congestion d97757, weather 4fa3d1, road_surface 56b0a6, dimensional_restriction 8b9bb4, truck_parking 7ea45c">
+  <!--
+    The eight event-class fills from ui/src/styles.css, drawn on the viewer's own
+    background so the swatches read as they do in the app. Bars use the strip's
+    geometry (14px tall, rx 2) rather than plain squares, for the same reason.
+
+    THIS FILE IS A COPY OF STYLE STATE. If a per-class custom property changes
+    in styles.css, this drifts silently - there is no test binding the two.
+  -->
+  <rect width="660" height="290" fill="#12161c"/>
+
+  <text x="16" y="26" fill="#8899ab" font-family="sans-serif" font-size="12">
+    Strip UI event-class fills - colour encodes CLASS only, never severity or confidence
+  </text>
+
+  <!-- work_zone -->
+  <rect x="16" y="44" width="110" height="14" rx="2" fill="#e8a33d"/>
+  <text x="140" y="55" fill="#e6edf5" font-family="sans-serif" font-size="12">work_zone</text>
+  <text x="300" y="55" fill="#8899ab" font-family="monospace" font-size="12">#e8a33d</text>
+  <text x="390" y="55" fill="#5d6b7d" font-family="sans-serif" font-size="11">class 1</text>
+
+  <!-- incident -->
+  <rect x="16" y="72" width="110" height="14" rx="2" fill="#e0605e"/>
+  <text x="140" y="83" fill="#e6edf5" font-family="sans-serif" font-size="12">incident</text>
+  <text x="300" y="83" fill="#8899ab" font-family="monospace" font-size="12">#e0605e</text>
+  <text x="390" y="83" fill="#5d6b7d" font-family="sans-serif" font-size="11">class 2</text>
+
+  <!-- closure -->
+  <rect x="16" y="100" width="110" height="14" rx="2" fill="#c678dd"/>
+  <text x="140" y="111" fill="#e6edf5" font-family="sans-serif" font-size="12">closure</text>
+  <text x="300" y="111" fill="#8899ab" font-family="monospace" font-size="12">#c678dd</text>
+  <text x="390" y="111" fill="#5d6b7d" font-family="sans-serif" font-size="11">class 3</text>
+
+  <!-- congestion -->
+  <rect x="16" y="128" width="110" height="14" rx="2" fill="#d97757"/>
+  <text x="140" y="139" fill="#e6edf5" font-family="sans-serif" font-size="12">congestion</text>
+  <text x="300" y="139" fill="#8899ab" font-family="monospace" font-size="12">#d97757</text>
+  <text x="390" y="139" fill="#d9a13b" font-family="sans-serif" font-size="11">
+    class 4 - all four ALS subtypes share this one fill
+  </text>
+
+  <!-- weather -->
+  <rect x="16" y="156" width="110" height="14" rx="2" fill="#4fa3d1"/>
+  <text x="140" y="167" fill="#e6edf5" font-family="sans-serif" font-size="12">weather</text>
+  <text x="300" y="167" fill="#8899ab" font-family="monospace" font-size="12">#4fa3d1</text>
+  <text x="390" y="167" fill="#5d6b7d" font-family="sans-serif" font-size="11">class 5</text>
+
+  <!-- road_surface -->
+  <rect x="16" y="184" width="110" height="14" rx="2" fill="#56b0a6"/>
+  <text x="140" y="195" fill="#e6edf5" font-family="sans-serif" font-size="12">road_surface</text>
+  <text x="300" y="195" fill="#8899ab" font-family="monospace" font-size="12">#56b0a6</text>
+  <text x="390" y="195" fill="#5d6b7d" font-family="sans-serif" font-size="11">class 6</text>
+
+  <!-- dimensional_restriction -->
+  <rect x="16" y="212" width="110" height="14" rx="2" fill="#8b9bb4"/>
+  <text x="140" y="223" fill="#e6edf5" font-family="sans-serif" font-size="12">dimensional_restriction</text>
+  <text x="300" y="223" fill="#8899ab" font-family="monospace" font-size="12">#8b9bb4</text>
+  <text x="390" y="223" fill="#d9a13b" font-family="sans-serif" font-size="11">
+    class 7 - identical to the unstyled-class fallback
+  </text>
+
+  <!-- truck_parking -->
+  <rect x="16" y="240" width="110" height="14" rx="2" fill="#7ea45c"/>
+  <text x="140" y="251" fill="#e6edf5" font-family="sans-serif" font-size="12">truck_parking</text>
+  <text x="300" y="251" fill="#8899ab" font-family="monospace" font-size="12">#7ea45c</text>
+  <text x="390" y="251" fill="#5d6b7d" font-family="sans-serif" font-size="11">class 8 - no source, never rendered yet</text>
+
+  <text x="16" y="278" fill="#5d6b7d" font-family="sans-serif" font-size="11">
+    Chosen for colour-blind distinguishability: class is the primary encoding, so it cannot rely on red/green.
+  </text>
+</svg>

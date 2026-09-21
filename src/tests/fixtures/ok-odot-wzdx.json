@@ -1,0 +1,603 @@
+{
+ "road_event_feed_info": {
+  "publisher": "Oklahoma Department of Transportation",
+  "contact_name": "Dana Whitfield",
+  "contact_email": "dwhitfield@example.com",
+  "update_frequency": 60,
+  "version": "4.0",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "data_sources": [
+   {
+    "data_source_id": "1",
+    "organization_name": "ODOT",
+    "contact_name": "Dana Whitfield",
+    "contact_email": "dana.whitfield@example.com",
+    "update_frequency": 60,
+    "update_date": "2026-08-07T22:16:48.373Z"
+   }
+  ],
+  "update_date": "2026-08-07T22:16:48.371Z"
+ },
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "250182-0",
+   "properties": {
+    "core_details": {
+     "data_source_id": "1",
+     "event_type": "work-zone",
+     "road_names": [
+      "I-40 W"
+     ],
+     "direction": "westbound",
+     "description": "GRADE, DRAIN, BRIDGE AND SURFACE",
+     "update_date": "2026-07-22T15:39:09.000Z"
+    },
+    "beginning_accuracy": "estimated",
+    "ending_accuracy": "estimated",
+    "start_date": "2026-01-06T19:04:00.000Z",
+    "end_date": "2029-08-05T22:16:48.351Z",
+    "location_method": "channel-device-method",
+    "start_date_accuracy": "estimated",
+    "end_date_accuracy": "estimated",
+    "event_status": "active",
+    "restrictions": [],
+    "vehicle_impact": "unknown"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -98.95457,
+      35.500097
+     ],
+     [
+      -98.955446,
+      35.500148
+     ],
+     [
+      -98.959242,
+      35.50042
+     ],
+     [
+      -98.962754,
+      35.50068
+     ],
+     [
+      -98.965316,
+      35.500704
+     ],
+     [
+      -98.968209,
+      35.500574
+     ],
+     [
+      -98.971133,
+      35.500261
+     ],
+     [
+      -98.973994,
+      35.499742
+     ],
+     [
+      -98.976877,
+      35.499184
+     ],
+     [
+      -98.979776,
+      35.498619
+     ],
+     [
+      -98.982634,
+      35.498048
+     ],
+     [
+      -98.985496,
+      35.497497
+     ],
+     [
+      -98.988368,
+      35.49697
+     ],
+     [
+      -98.991249,
+      35.496421
+     ],
+     [
+      -98.994132,
+      35.495819
+     ],
+     [
+      -98.996498,
+      35.495171
+     ],
+     [
+      -98.998359,
+      35.49455
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "250182-1",
+   "properties": {
+    "core_details": {
+     "data_source_id": "1",
+     "event_type": "work-zone",
+     "road_names": [
+      "I-40 E"
+     ],
+     "direction": "eastbound",
+     "description": "GRADE, DRAIN, BRIDGE AND SURFACE",
+     "update_date": "2026-07-22T15:39:09.000Z"
+    },
+    "beginning_accuracy": "estimated",
+    "ending_accuracy": "estimated",
+    "start_date": "2026-01-06T19:04:00.000Z",
+    "end_date": "2029-08-05T22:16:48.351Z",
+    "location_method": "channel-device-method",
+    "start_date_accuracy": "estimated",
+    "end_date_accuracy": "estimated",
+    "event_status": "active",
+    "restrictions": [],
+    "vehicle_impact": "unknown"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -99.007616,
+      35.489121
+     ],
+     [
+      -99.005733,
+      35.490525
+     ],
+     [
+      -99.003493,
+      35.491939
+     ],
+     [
+      -99.001325,
+      35.493062
+     ],
+     [
+      -98.999601,
+      35.493834
+     ],
+     [
+      -98.997415,
+      35.494655
+     ],
+     [
+      -98.994962,
+      35.495468
+     ],
+     [
+      -98.993339,
+      35.49585
+     ],
+     [
+      -98.990523,
+      35.496381
+     ],
+     [
+      -98.987691,
+      35.496944
+     ],
+     [
+      -98.984873,
+      35.497486
+     ],
+     [
+      -98.982048,
+      35.498032
+     ],
+     [
+      -98.979254,
+      35.498571
+     ],
+     [
+      -98.976445,
+      35.499123
+     ],
+     [
+      -98.973595,
+      35.49966
+     ],
+     [
+      -98.970776,
+      35.500148
+     ],
+     [
+      -98.968633,
+      35.500359
+     ],
+     [
+      -98.965448,
+      35.500483
+     ],
+     [
+      -98.962559,
+      35.500444
+     ],
+     [
+      -98.958891,
+      35.500191
+     ],
+     [
+      -98.954979,
+      35.499904
+     ],
+     [
+      -98.95302,
+      35.499877
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "250298-0",
+   "properties": {
+    "core_details": {
+     "data_source_id": "1",
+     "event_type": "work-zone",
+     "road_names": [
+      "I-40 E"
+     ],
+     "direction": "eastbound",
+     "description": "BRIDGE REHABILITATION",
+     "update_date": "2026-08-04T14:42:09.000Z"
+    },
+    "beginning_accuracy": "estimated",
+    "ending_accuracy": "estimated",
+    "start_date": "2026-02-09T14:55:00.000Z",
+    "end_date": "2026-10-19T22:16:48.354Z",
+    "location_method": "channel-device-method",
+    "start_date_accuracy": "estimated",
+    "end_date_accuracy": "estimated",
+    "event_status": "active",
+    "restrictions": [],
+    "vehicle_impact": "unknown"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -98.722633,
+      35.520317
+     ],
+     [
+      -98.719545,
+      35.520772
+     ],
+     [
+      -98.716371,
+      35.521225
+     ],
+     [
+      -98.713465,
+      35.521478
+     ],
+     [
+      -98.709921,
+      35.521556
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "250298-1",
+   "properties": {
+    "core_details": {
+     "data_source_id": "1",
+     "event_type": "work-zone",
+     "road_names": [
+      "I-40 W"
+     ],
+     "direction": "westbound",
+     "description": "BRIDGE REHABILITATION",
+     "update_date": "2026-08-04T14:42:09.000Z"
+    },
+    "beginning_accuracy": "estimated",
+    "ending_accuracy": "estimated",
+    "start_date": "2026-02-09T14:55:00.000Z",
+    "end_date": "2026-10-19T22:16:48.354Z",
+    "location_method": "channel-device-method",
+    "start_date_accuracy": "estimated",
+    "end_date_accuracy": "estimated",
+    "event_status": "active",
+    "restrictions": [],
+    "vehicle_impact": "unknown"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -98.697373,
+      35.522012
+     ],
+     [
+      -98.698112,
+      35.521896
+     ],
+     [
+      -98.699139,
+      35.521806
+     ],
+     [
+      -98.702165,
+      35.521777
+     ],
+     [
+      -98.705532,
+      35.521791
+     ],
+     [
+      -98.709216,
+      35.521797
+     ],
+     [
+      -98.71221,
+      35.521658
+     ],
+     [
+      -98.714887,
+      35.521508
+     ],
+     [
+      -98.718191,
+      35.521141
+     ],
+     [
+      -98.720781,
+      35.520833
+     ],
+     [
+      -98.721506,
+      35.520738
+     ],
+     [
+      -98.721749,
+      35.520706
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "250317-0",
+   "properties": {
+    "core_details": {
+     "data_source_id": "1",
+     "event_type": "work-zone",
+     "road_names": [
+      "I-40 W"
+     ],
+     "direction": "westbound",
+     "description": "BRIDGE REPAIR",
+     "update_date": "2026-08-04T14:42:12.000Z"
+    },
+    "beginning_accuracy": "estimated",
+    "ending_accuracy": "estimated",
+    "start_date": "2026-03-23T18:08:00.000Z",
+    "end_date": "2026-08-17T22:16:48.354Z",
+    "location_method": "channel-device-method",
+    "start_date_accuracy": "estimated",
+    "end_date_accuracy": "estimated",
+    "event_status": "active",
+    "restrictions": [],
+    "vehicle_impact": "unknown"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -98.718012,
+      35.521263
+     ],
+     [
+      -98.720785,
+      35.520803
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "210236-0",
+   "properties": {
+    "core_details": {
+     "data_source_id": "1",
+     "event_type": "work-zone",
+     "road_names": [
+      "I-240 E",
+      "I-240 W"
+     ],
+     "direction": "westbound",
+     "description": "GRADE, DRAIN, SURFACE, AND BRIDGE",
+     "update_date": "2026-04-06T20:23:49.000Z"
+    },
+    "beginning_accuracy": "estimated",
+    "ending_accuracy": "estimated",
+    "start_date": "2023-01-23T06:00:00.000Z",
+    "end_date": "2027-03-29T22:16:48.291Z",
+    "location_method": "channel-device-method",
+    "start_date_accuracy": "estimated",
+    "end_date_accuracy": "estimated",
+    "event_status": "active",
+    "restrictions": [],
+    "vehicle_impact": "unknown"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -97.475474,
+      35.391356
+     ],
+     [
+      -97.478551,
+      35.391404
+     ],
+     [
+      -97.481936,
+      35.391445
+     ],
+     [
+      -97.484916,
+      35.391445
+     ],
+     [
+      -97.487955,
+      35.391439
+     ],
+     [
+      -97.490895,
+      35.391427
+     ],
+     [
+      -97.493715,
+      35.391527
+     ],
+     [
+      -97.49716,
+      35.391965
+     ],
+     [
+      -97.500622,
+      35.391974
+     ],
+     [
+      -97.504301,
+      35.391954
+     ],
+     [
+      -97.5081,
+      35.391937
+     ],
+     [
+      -97.511873,
+      35.391929
+     ],
+     [
+      -97.515515,
+      35.391882
+     ],
+     [
+      -97.51919,
+      35.391489
+     ],
+     [
+      -97.522846,
+      35.391364
+     ],
+     [
+      -97.526436,
+      35.391346
+     ],
+     [
+      -97.530277,
+      35.391329
+     ],
+     [
+      -97.534022,
+      35.391325
+     ],
+     [
+      -97.537784,
+      35.391323
+     ],
+     [
+      -97.541444,
+      35.391322
+     ],
+     [
+      -97.544858,
+      35.391317
+     ],
+     [
+      -97.548609,
+      35.391324
+     ],
+     [
+      -97.552229,
+      35.391331
+     ],
+     [
+      -97.555337,
+      35.391773
+     ],
+     [
+      -97.555573,
+      35.391802
+     ],
+     [
+      -97.555665,
+      35.391813
+     ],
+     [
+      -97.555777,
+      35.391825
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "210236-1",
+   "properties": {
+    "core_details": {
+     "data_source_id": "1",
+     "event_type": "work-zone",
+     "road_names": [
+      "I-35 S",
+      "I-35 N"
+     ],
+     "direction": "southbound",
+     "description": "GRADE, DRAIN, SURFACE, AND BRIDGE",
+     "update_date": "2026-04-06T20:23:49.000Z"
+    },
+    "beginning_accuracy": "estimated",
+    "ending_accuracy": "estimated",
+    "start_date": "2023-01-23T06:00:00.000Z",
+    "end_date": "2027-03-29T22:16:48.291Z",
+    "location_method": "channel-device-method",
+    "start_date_accuracy": "estimated",
+    "end_date_accuracy": "estimated",
+    "event_status": "active",
+    "restrictions": [],
+    "vehicle_impact": "unknown"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -97.495118,
+      35.399333
+     ],
+     [
+      -97.495529,
+      35.39564
+     ],
+     [
+      -97.495529,
+      35.390739
+     ],
+     [
+      -97.49487,
+      35.384024
+     ],
+     [
+      -97.49487,
+      35.378652
+     ]
+    ]
+   }
+  }
+ ]
+}

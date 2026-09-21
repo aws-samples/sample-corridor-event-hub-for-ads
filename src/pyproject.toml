@@ -1,0 +1,103 @@
+[project]
+name = "corridor-event-hub"
+version = "0.1.0"
+description = "Corridor Event Hub for ADS - corridor roadway event ingest on AWS for automated driving systems"
+license = { text = "MIT-0" }
+# Lambda runs Python 3.13 (see lib/ingest-stack.ts). 3.9 is the floor so the
+# pipeline also runs on a stock macOS python3 without anyone installing a
+# toolchain first - workshop day 2 should not start with pyenv.
+requires-python = ">=3.9"
+
+# Runtime dependencies are deliberately few.
+#
+# boto3 ships with the Lambda runtime, so it is a dev-only dependency here:
+# pinning it in the deployment bundle would ship ~15MB to override a library the
+# platform already provides at a matching version.
+#
+# SHAPELY MOVED TO dev. It used to be described here as "the ONE real dependency",
+# following the early architecture, which named it as the corridor geometry library.
+# Measured,
+# it was 10 MB and it brought numpy's 40.9 MB - together 85% of the deployment
+# bundle - and it was imported in exactly ONE function, for one point-in-polygon
+# boolean. numpy was never imported by this codebase at all.
+#
+# core/lrs.py answers that with even-odd ray casting in pure Python, checked against
+# shapely over 20,000 random points in tests/test_point_in_polygon.py. shapely stays
+# a dev dependency SO THAT COMPARISON KEEPS RUNNING - it is the reference the
+# replacement is held to, which is worth more than shipping it.
+#
+# What this buys beyond size: the deployment bundle is now PURE PYTHON, so the
+# invalid-ELF-header failure class that scripts/build-lambda.sh exists to prevent
+# has no way in. The script asserts that property rather than checking one wheel.
+#
+# pg8000 is the Postgres driver for the migration runner
+# (corridor_event_hub/handlers/db_migrate.py). Pure Python on purpose - see the note in
+# scripts/build-lambda.sh. It is a real runtime dependency rather than a dev one:
+# unlike boto3, the Lambda runtime does not provide it.
+dependencies = [
+    "pg8000>=1.31",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "boto3>=1.35",
+    "ruff>=0.8",
+    # The reference implementation for point-in-polygon. Not deployed - see above.
+    "shapely>=2.0",
+    # Dependency vulnerability audit for the Python half (finding S-6). The build ran
+    # linting, tests, type-checking and cdk-nag and no vulnerability scan at all,
+    # which is what made the unpinned-dependency findings hard to answer: floating
+    # ranges are fine when something checks the resolved tree, and nothing did.
+    # scripts/check-deps.sh runs it; the TypeScript half is `npm audit`.
+    "pip-audit>=2.7",
+    # The OFFICIAL WZDx conformance check. The projection is validated against the
+    # schema USDOT publishes (vendored in reference/wzdx/4.2/), not only against the
+    # required-fields table in core/wzdx.py - see scripts/lib/wzdx_schema.py.
+    #
+    # DEV ONLY, and it has to stay that way: jsonschema brings rpds-py, which is a
+    # COMPILED wheel. In the Lambda bundle that is the invalid-ELF-header failure
+    # class scripts/build-lambda.sh exists to keep out. Nothing at runtime needs it -
+    # a feed that cannot pass the schema never gets past CI to be deployed.
+    "jsonschema>=4.21",
+    # Not optional, despite looking it. jsonschema can only check `format: date-time`
+    # when this is importable; without it every timestamp in the feed validates
+    # unread and the check passes having verified nothing about them.
+    "rfc3339-validator>=0.1",
+]
+
+[project.scripts]
+corridor-event-hub-probe = "corridor_event_hub.probe:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+# FLAT layout, not src-layout: the package sits at ./corridor_event_hub. `include` is
+# what keeps that honest - without it, packages.find would also sweep up `config`,
+# `sql`, `scripts` and `tests` as top-level packages and ship them into the wheel.
+where = ["."]
+include = ["corridor_event_hub*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+# Quiet by default; -v when you want the 100-plus test names.
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+# Where isort looks for FIRST-PARTY packages, so these are the directories that
+# CONTAIN them, not the packages themselves: `.` is what makes `corridor_event_hub`
+# first-party, and `tests` is what makes `conftest` first-party. Pointing this at
+# `corridor_event_hub` instead would find `core`/`adapters`/`handlers` and sort every
+# `from corridor_event_hub...` import into the third-party block.
+src = [".", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "SIM"]
+# The adapters carry long explanatory comments about live payload quirks. Those
+# comments are the deliverable (R-12.5), so E501 is off rather than reformatted.
+ignore = ["E501"]

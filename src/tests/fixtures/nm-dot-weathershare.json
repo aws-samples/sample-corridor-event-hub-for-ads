@@ -1,0 +1,3598 @@
+[
+ [
+  {
+   "routeName": [
+    "routeName",
+    "I"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "40"
+   ],
+   "eventType": [
+    "eventType",
+    9
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Eastbound driving lane closed on I-40 for bridge deck repair."
+   ],
+   "name": "Roadwork, I 40 eastbound from mile marker 140 to mile marker 146",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.030996,
+   "longitude": -106.950058,
+   "milepost": "140.000",
+   "road_dir": "",
+   "routeName_display": "I-40",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "I"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "40"
+   ],
+   "eventType": [
+    "eventType",
+    8
+   ],
+   "description": [
+    "description",
+    "Lane Closure~~~Westbound left lane closed on I-40."
+   ],
+   "name": "Lane Closure, I 40 westbound at mile marker 164",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.090406,
+   "longitude": -106.551771,
+   "milepost": "164.000",
+   "road_dir": "",
+   "routeName_display": "I-40",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "54"
+   ],
+   "eventType": [
+    "eventType",
+    7
+   ],
+   "description": [
+    "description",
+    "Low Clearance Structure~~~CMV's please use I-40 between exits 89 & 96. Height Restriction 13'6\"."
+   ],
+   "name": "Low Clearance Structure, US 54 at mile marker 12",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.485438,
+   "longitude": -108.903597,
+   "milepost": "12.000",
+   "road_dir": "",
+   "routeName_display": "US-54",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "566"
+   ],
+   "eventType": [
+    "eventType",
+    9
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Shoulder work near the I-40 interchange."
+   ],
+   "name": "Roadwork, NM 566 at mile marker 0, Church Rock (I-40)",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-566",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "566"
+   ],
+   "eventType": [
+    "eventType",
+    9
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~6 miles north of I-40, expect delays."
+   ],
+   "name": "Roadwork, NM 566 from mile marker 6 to mile marker 9",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-566",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "285"
+   ],
+   "eventType": [
+    "eventType",
+    9
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, US 285 from mile marker 120 to mile marker 124",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-285",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "70"
+   ],
+   "eventType": [
+    "eventType",
+    13
+   ],
+   "description": [
+    "description",
+    "Fair Driving Conditions~~~Roads are wet."
+   ],
+   "name": "Fair Driving Conditions, US 70 at mile marker 44",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-70",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "64"
+   ],
+   "eventType": [
+    "eventType",
+    16
+   ],
+   "description": [
+    "description",
+    "Difficult Driving Conditions~~~Blowing dust."
+   ],
+   "name": "Difficult Driving Conditions, US 64 at mile marker 88",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-64",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "14"
+   ],
+   "eventType": [
+    "eventType",
+    5
+   ],
+   "description": [
+    "description",
+    "Closure~~~Road closed for bridge replacement."
+   ],
+   "name": "Closure, NM 14 from mile marker 10 to mile marker 14",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-14",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "38"
+   ],
+   "eventType": [
+    "eventType",
+    20
+   ],
+   "description": [
+    "description",
+    "Seasonal Closure~~~Closed for the season."
+   ],
+   "name": "Seasonal Closure, NM 38 from mile marker 2 to mile marker 20",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-38",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "423"
+   ],
+   "eventType": [
+    "eventType",
+    19
+   ],
+   "description": [
+    "description",
+    "Closure, Montgomery Blvd. Loop Ramp"
+   ],
+   "name": "Closure, Montgomery Blvd. Loop Ramp at mile marker 3",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-423",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "491"
+   ],
+   "eventType": [
+    "eventType",
+    7
+   ],
+   "description": [
+    "description",
+    "Alert~~~Advisory only."
+   ],
+   "name": "Alert, Alert",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-491",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "602"
+   ],
+   "eventType": [
+    "eventType",
+    7
+   ],
+   "description": [
+    "description",
+    "Alert~~~Advisory only."
+   ],
+   "name": "Alert, Alert",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-602",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "128"
+   ],
+   "eventType": [
+    "eventType",
+    13
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, NM 128 from mile marker 23 to mile marker 26",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-128",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "84"
+   ],
+   "eventType": [
+    "eventType",
+    16
+   ],
+   "description": [
+    "description",
+    "Alert~~~Advisory only."
+   ],
+   "name": "Alert, US 84",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-84",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "6"
+   ],
+   "eventType": [
+    "eventType",
+    5
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, NM 6 from mile marker 25 to mile marker 28",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-6",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "285"
+   ],
+   "eventType": [
+    "eventType",
+    7
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, US 285 from mile marker 26 to mile marker 29",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-285",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "70"
+   ],
+   "eventType": [
+    "eventType",
+    20
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, US 70 from mile marker 27 to mile marker 30",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-70",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "14"
+   ],
+   "eventType": [
+    "eventType",
+    9
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, NM 14 from mile marker 28 to mile marker 31",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-14",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "518"
+   ],
+   "eventType": [
+    "eventType",
+    13
+   ],
+   "description": [
+    "description",
+    "Alert~~~Advisory only."
+   ],
+   "name": "Alert, NM 518",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-518",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "550"
+   ],
+   "eventType": [
+    "eventType",
+    16
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, US 550 from mile marker 30 to mile marker 33",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-550",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "128"
+   ],
+   "eventType": [
+    "eventType",
+    5
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, NM 128 from mile marker 31 to mile marker 34",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-128",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "84"
+   ],
+   "eventType": [
+    "eventType",
+    7
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, US 84 from mile marker 32 to mile marker 35",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-84",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "6"
+   ],
+   "eventType": [
+    "eventType",
+    20
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, NM 6 from mile marker 33 to mile marker 36",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-6",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "285"
+   ],
+   "eventType": [
+    "eventType",
+    9
+   ],
+   "description": [
+    "description",
+    "Alert~~~Advisory only."
+   ],
+   "name": "Alert, US 285",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-285",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "70"
+   ],
+   "eventType": [
+    "eventType",
+    13
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, US 70 from mile marker 35 to mile marker 38",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-70",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "14"
+   ],
+   "eventType": [
+    "eventType",
+    16
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, NM 14 from mile marker 36 to mile marker 39",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-14",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "518"
+   ],
+   "eventType": [
+    "eventType",
+    5
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, NM 518 from mile marker 37 to mile marker 40",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-518",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "550"
+   ],
+   "eventType": [
+    "eventType",
+    7
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, US 550 from mile marker 38 to mile marker 41",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-550",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "128"
+   ],
+   "eventType": [
+    "eventType",
+    20
+   ],
+   "description": [
+    "description",
+    "Alert~~~Advisory only."
+   ],
+   "name": "Alert, NM 128",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-128",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "84"
+   ],
+   "eventType": [
+    "eventType",
+    9
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, US 84 from mile marker 10 to mile marker 13",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-84",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "6"
+   ],
+   "eventType": [
+    "eventType",
+    13
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, NM 6 from mile marker 11 to mile marker 14",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-6",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "285"
+   ],
+   "eventType": [
+    "eventType",
+    16
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, US 285 from mile marker 12 to mile marker 15",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-285",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "70"
+   ],
+   "eventType": [
+    "eventType",
+    5
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, US 70 from mile marker 13 to mile marker 16",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-70",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "14"
+   ],
+   "eventType": [
+    "eventType",
+    7
+   ],
+   "description": [
+    "description",
+    "Alert~~~Advisory only."
+   ],
+   "name": "Alert, NM 14",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-14",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "518"
+   ],
+   "eventType": [
+    "eventType",
+    20
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, NM 518 from mile marker 15 to mile marker 18",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-518",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "550"
+   ],
+   "eventType": [
+    "eventType",
+    9
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, US 550 from mile marker 16 to mile marker 19",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-550",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "128"
+   ],
+   "eventType": [
+    "eventType",
+    13
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, NM 128 from mile marker 17 to mile marker 20",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-128",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "84"
+   ],
+   "eventType": [
+    "eventType",
+    16
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, US 84 from mile marker 18 to mile marker 21",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-84",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "6"
+   ],
+   "eventType": [
+    "eventType",
+    5
+   ],
+   "description": [
+    "description",
+    "Alert~~~Advisory only."
+   ],
+   "name": "Alert, NM 6",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-6",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "285"
+   ],
+   "eventType": [
+    "eventType",
+    7
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, US 285 from mile marker 20 to mile marker 23",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-285",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "70"
+   ],
+   "eventType": [
+    "eventType",
+    20
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, US 70 from mile marker 21 to mile marker 24",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-70",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "14"
+   ],
+   "eventType": [
+    "eventType",
+    9
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, NM 14 from mile marker 22 to mile marker 25",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-14",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "518"
+   ],
+   "eventType": [
+    "eventType",
+    13
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, NM 518 from mile marker 23 to mile marker 26",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-518",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "550"
+   ],
+   "eventType": [
+    "eventType",
+    16
+   ],
+   "description": [
+    "description",
+    "Alert~~~Advisory only."
+   ],
+   "name": "Alert, US 550",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-550",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "128"
+   ],
+   "eventType": [
+    "eventType",
+    5
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, NM 128 from mile marker 25 to mile marker 28",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-128",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "84"
+   ],
+   "eventType": [
+    "eventType",
+    7
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, US 84 from mile marker 26 to mile marker 29",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-84",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "6"
+   ],
+   "eventType": [
+    "eventType",
+    20
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, NM 6 from mile marker 27 to mile marker 30",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-6",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "285"
+   ],
+   "eventType": [
+    "eventType",
+    9
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, US 285 from mile marker 28 to mile marker 31",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-285",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "70"
+   ],
+   "eventType": [
+    "eventType",
+    13
+   ],
+   "description": [
+    "description",
+    "Alert~~~Advisory only."
+   ],
+   "name": "Alert, US 70",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-70",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "14"
+   ],
+   "eventType": [
+    "eventType",
+    16
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, NM 14 from mile marker 30 to mile marker 33",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-14",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "518"
+   ],
+   "eventType": [
+    "eventType",
+    5
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, NM 518 from mile marker 31 to mile marker 34",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-518",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "550"
+   ],
+   "eventType": [
+    "eventType",
+    7
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, US 550 from mile marker 32 to mile marker 35",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-550",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "128"
+   ],
+   "eventType": [
+    "eventType",
+    20
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, NM 128 from mile marker 33 to mile marker 36",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-128",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "84"
+   ],
+   "eventType": [
+    "eventType",
+    9
+   ],
+   "description": [
+    "description",
+    "Alert~~~Advisory only."
+   ],
+   "name": "Alert, US 84",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-84",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "6"
+   ],
+   "eventType": [
+    "eventType",
+    13
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, NM 6 from mile marker 35 to mile marker 38",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-6",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "285"
+   ],
+   "eventType": [
+    "eventType",
+    16
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, US 285 from mile marker 36 to mile marker 39",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-285",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "70"
+   ],
+   "eventType": [
+    "eventType",
+    5
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, US 70 from mile marker 37 to mile marker 40",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-70",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "14"
+   ],
+   "eventType": [
+    "eventType",
+    7
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, NM 14 from mile marker 38 to mile marker 41",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-14",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "518"
+   ],
+   "eventType": [
+    "eventType",
+    20
+   ],
+   "description": [
+    "description",
+    "Alert~~~Advisory only."
+   ],
+   "name": "Alert, NM 518",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-518",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "550"
+   ],
+   "eventType": [
+    "eventType",
+    9
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, US 550 from mile marker 10 to mile marker 13",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-550",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "128"
+   ],
+   "eventType": [
+    "eventType",
+    13
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, NM 128 from mile marker 11 to mile marker 14",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-128",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "84"
+   ],
+   "eventType": [
+    "eventType",
+    16
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, US 84 from mile marker 12 to mile marker 15",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-84",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "6"
+   ],
+   "eventType": [
+    "eventType",
+    5
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, NM 6 from mile marker 13 to mile marker 16",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-6",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "285"
+   ],
+   "eventType": [
+    "eventType",
+    7
+   ],
+   "description": [
+    "description",
+    "Alert~~~Advisory only."
+   ],
+   "name": "Alert, US 285",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-285",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "70"
+   ],
+   "eventType": [
+    "eventType",
+    20
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, US 70 from mile marker 15 to mile marker 18",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-70",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "14"
+   ],
+   "eventType": [
+    "eventType",
+    9
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, NM 14 from mile marker 16 to mile marker 19",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-14",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "518"
+   ],
+   "eventType": [
+    "eventType",
+    13
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, NM 518 from mile marker 17 to mile marker 20",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-518",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "550"
+   ],
+   "eventType": [
+    "eventType",
+    16
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, US 550 from mile marker 18 to mile marker 21",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-550",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "128"
+   ],
+   "eventType": [
+    "eventType",
+    5
+   ],
+   "description": [
+    "description",
+    "Alert~~~Advisory only."
+   ],
+   "name": "Alert, NM 128",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-128",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "84"
+   ],
+   "eventType": [
+    "eventType",
+    7
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, US 84 from mile marker 20 to mile marker 23",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-84",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "6"
+   ],
+   "eventType": [
+    "eventType",
+    20
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, NM 6 from mile marker 21 to mile marker 24",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-6",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "285"
+   ],
+   "eventType": [
+    "eventType",
+    9
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, US 285 from mile marker 22 to mile marker 25",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-285",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "70"
+   ],
+   "eventType": [
+    "eventType",
+    13
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, US 70 from mile marker 23 to mile marker 26",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-70",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "14"
+   ],
+   "eventType": [
+    "eventType",
+    16
+   ],
+   "description": [
+    "description",
+    "Alert~~~Advisory only."
+   ],
+   "name": "Alert, NM 14",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-14",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "518"
+   ],
+   "eventType": [
+    "eventType",
+    5
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, NM 518 from mile marker 25 to mile marker 28",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-518",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "550"
+   ],
+   "eventType": [
+    "eventType",
+    7
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, US 550 from mile marker 26 to mile marker 29",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-550",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "128"
+   ],
+   "eventType": [
+    "eventType",
+    20
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, NM 128 from mile marker 27 to mile marker 30",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-128",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "84"
+   ],
+   "eventType": [
+    "eventType",
+    9
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, US 84 from mile marker 28 to mile marker 31",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-84",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "6"
+   ],
+   "eventType": [
+    "eventType",
+    13
+   ],
+   "description": [
+    "description",
+    "Alert~~~Advisory only."
+   ],
+   "name": "Alert, NM 6",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-6",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "285"
+   ],
+   "eventType": [
+    "eventType",
+    16
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, US 285 from mile marker 30 to mile marker 33",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-285",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "US"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "70"
+   ],
+   "eventType": [
+    "eventType",
+    5
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, US 70 from mile marker 31 to mile marker 34",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "US-70",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "14"
+   ],
+   "eventType": [
+    "eventType",
+    7
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, NM 14 from mile marker 32 to mile marker 35",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-14",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "routeName": [
+    "routeName",
+    "NM"
+   ],
+   "routeNumber": [
+    "routeNumber",
+    "518"
+   ],
+   "eventType": [
+    "eventType",
+    20
+   ],
+   "description": [
+    "description",
+    "Roadwork~~~Utility work."
+   ],
+   "name": "Roadwork, NM 518 from mile marker 33 to mile marker 36",
+   "type": "Construction",
+   "source": "NMDOT",
+   "latitude": 35.074975,
+   "longitude": -107.594737,
+   "milepost": "",
+   "road_dir": "",
+   "routeName_display": "NM-518",
+   "icon": "construction",
+   "starttime": "",
+   "endtime": "",
+   "updated": "202608112043 UTC",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "14:43:02",
+   "severity": "",
+   "delay": "",
+   "advice": "",
+   "closed-lanes": "",
+   "total-lanes": ""
+  },
+  {
+   "id": "C1CB-SR-1-0",
+   "log-id": "1",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "13:43:02",
+   "route": "SR-1",
+   "direction": "North / South",
+   "longitude": -123.800471,
+   "latitude": 39.698544,
+   "facility": "Conventional Hwy",
+   "type-closure": "One-Way Traffic",
+   "type-work": "Drainage Work",
+   "delay": "Not Reported",
+   "closed-lanes": "1",
+   "total-lanes": "2",
+   "uid": "C1CB-SR-1-0",
+   "starttime": [
+    "202603191401 UTC"
+   ],
+   "endtime": [
+    "202608310301 UTC"
+   ],
+   "updated": "202608112043 UTC",
+   "advice": "Lane(s) 1 closed out of 2 total lanes",
+   "description": "One-Way Traffic Closure for Drainage Work on Route SR-1",
+   "severity": "Expect Not Reported minute delays",
+   "type": "Construction",
+   "typeabbr": "C",
+   "source": "CALTRANS",
+   "start_loc": {
+    "county": "Example",
+    "postmile": "82.550",
+    "direction": "",
+    "description": "",
+    "location": ""
+   },
+   "end_loc": {
+    "county": "Example",
+    "postmile": "82.910",
+    "direction": "",
+    "description": "",
+    "location": ""
+   },
+   "location": ""
+  },
+  {
+   "id": "C1CB-SR-1-1",
+   "log-id": "1",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "13:43:02",
+   "route": "SR-1",
+   "direction": "North / South",
+   "longitude": -123.800471,
+   "latitude": 39.698544,
+   "facility": "Conventional Hwy",
+   "type-closure": "One-Way Traffic",
+   "type-work": "Drainage Work",
+   "delay": "Not Reported",
+   "closed-lanes": "1",
+   "total-lanes": "2",
+   "uid": "C1CB-SR-1-1",
+   "starttime": [
+    "202603191401 UTC"
+   ],
+   "endtime": [
+    "202608310301 UTC"
+   ],
+   "updated": "202608112043 UTC",
+   "advice": "Lane(s) 1 closed out of 2 total lanes",
+   "description": "One-Way Traffic Closure for Drainage Work on Route SR-1",
+   "severity": "Expect Not Reported minute delays",
+   "type": "Construction",
+   "typeabbr": "C",
+   "source": "CALTRANS",
+   "start_loc": {
+    "county": "Example",
+    "postmile": "82.550",
+    "direction": "",
+    "description": "",
+    "location": ""
+   },
+   "end_loc": {
+    "county": "Example",
+    "postmile": "82.910",
+    "direction": "",
+    "description": "",
+    "location": ""
+   },
+   "location": ""
+  },
+  {
+   "id": "C1CB-SR-1-2",
+   "log-id": "1",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "13:43:02",
+   "route": "SR-1",
+   "direction": "North / South",
+   "longitude": -123.800471,
+   "latitude": 39.698544,
+   "facility": "Conventional Hwy",
+   "type-closure": "One-Way Traffic",
+   "type-work": "Drainage Work",
+   "delay": "Not Reported",
+   "closed-lanes": "1",
+   "total-lanes": "2",
+   "uid": "C1CB-SR-1-2",
+   "starttime": [
+    "202603191401 UTC"
+   ],
+   "endtime": [
+    "202608310301 UTC"
+   ],
+   "updated": "202608112043 UTC",
+   "advice": "Lane(s) 1 closed out of 2 total lanes",
+   "description": "One-Way Traffic Closure for Drainage Work on Route SR-1",
+   "severity": "Expect Not Reported minute delays",
+   "type": "Construction",
+   "typeabbr": "C",
+   "source": "CALTRANS",
+   "start_loc": {
+    "county": "Example",
+    "postmile": "82.550",
+    "direction": "",
+    "description": "",
+    "location": ""
+   },
+   "end_loc": {
+    "county": "Example",
+    "postmile": "82.910",
+    "direction": "",
+    "description": "",
+    "location": ""
+   },
+   "location": ""
+  },
+  {
+   "id": "C1CB-SR-1-3",
+   "log-id": "1",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "13:43:02",
+   "route": "SR-1",
+   "direction": "North / South",
+   "longitude": -123.800471,
+   "latitude": 39.698544,
+   "facility": "Conventional Hwy",
+   "type-closure": "One-Way Traffic",
+   "type-work": "Drainage Work",
+   "delay": "Not Reported",
+   "closed-lanes": "1",
+   "total-lanes": "2",
+   "uid": "C1CB-SR-1-3",
+   "starttime": [
+    "202603191401 UTC"
+   ],
+   "endtime": [
+    "202608310301 UTC"
+   ],
+   "updated": "202608112043 UTC",
+   "advice": "Lane(s) 1 closed out of 2 total lanes",
+   "description": "One-Way Traffic Closure for Drainage Work on Route SR-1",
+   "severity": "Expect Not Reported minute delays",
+   "type": "Construction",
+   "typeabbr": "C",
+   "source": "CALTRANS",
+   "start_loc": {
+    "county": "Example",
+    "postmile": "82.550",
+    "direction": "",
+    "description": "",
+    "location": ""
+   },
+   "end_loc": {
+    "county": "Example",
+    "postmile": "82.910",
+    "direction": "",
+    "description": "",
+    "location": ""
+   },
+   "location": ""
+  },
+  {
+   "id": "C1CB-SR-1-4",
+   "log-id": "1",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "13:43:02",
+   "route": "SR-1",
+   "direction": "North / South",
+   "longitude": -123.800471,
+   "latitude": 39.698544,
+   "facility": "Conventional Hwy",
+   "type-closure": "One-Way Traffic",
+   "type-work": "Drainage Work",
+   "delay": "Not Reported",
+   "closed-lanes": "1",
+   "total-lanes": "2",
+   "uid": "C1CB-SR-1-4",
+   "starttime": [
+    "202603191401 UTC"
+   ],
+   "endtime": [
+    "202608310301 UTC"
+   ],
+   "updated": "202608112043 UTC",
+   "advice": "Lane(s) 1 closed out of 2 total lanes",
+   "description": "One-Way Traffic Closure for Drainage Work on Route SR-1",
+   "severity": "Expect Not Reported minute delays",
+   "type": "Construction",
+   "typeabbr": "C",
+   "source": "CALTRANS",
+   "start_loc": {
+    "county": "Example",
+    "postmile": "82.550",
+    "direction": "",
+    "description": "",
+    "location": ""
+   },
+   "end_loc": {
+    "county": "Example",
+    "postmile": "82.910",
+    "direction": "",
+    "description": "",
+    "location": ""
+   },
+   "location": ""
+  },
+  {
+   "id": "C1CB-SR-1-5",
+   "log-id": "1",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "13:43:02",
+   "route": "SR-1",
+   "direction": "North / South",
+   "longitude": -123.800471,
+   "latitude": 39.698544,
+   "facility": "Conventional Hwy",
+   "type-closure": "One-Way Traffic",
+   "type-work": "Drainage Work",
+   "delay": "Not Reported",
+   "closed-lanes": "1",
+   "total-lanes": "2",
+   "uid": "C1CB-SR-1-5",
+   "starttime": [
+    "202603191401 UTC"
+   ],
+   "endtime": [
+    "202608310301 UTC"
+   ],
+   "updated": "202608112043 UTC",
+   "advice": "Lane(s) 1 closed out of 2 total lanes",
+   "description": "One-Way Traffic Closure for Drainage Work on Route SR-1",
+   "severity": "Expect Not Reported minute delays",
+   "type": "Construction",
+   "typeabbr": "C",
+   "source": "CALTRANS",
+   "start_loc": {
+    "county": "Example",
+    "postmile": "82.550",
+    "direction": "",
+    "description": "",
+    "location": ""
+   },
+   "end_loc": {
+    "county": "Example",
+    "postmile": "82.910",
+    "direction": "",
+    "description": "",
+    "location": ""
+   },
+   "location": ""
+  },
+  {
+   "id": "C1CB-SR-1-6",
+   "log-id": "1",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "13:43:02",
+   "route": "SR-1",
+   "direction": "North / South",
+   "longitude": -123.800471,
+   "latitude": 39.698544,
+   "facility": "Conventional Hwy",
+   "type-closure": "One-Way Traffic",
+   "type-work": "Drainage Work",
+   "delay": "Not Reported",
+   "closed-lanes": "1",
+   "total-lanes": "2",
+   "uid": "C1CB-SR-1-6",
+   "starttime": [
+    "202603191401 UTC"
+   ],
+   "endtime": [
+    "202608310301 UTC"
+   ],
+   "updated": "202608112043 UTC",
+   "advice": "Lane(s) 1 closed out of 2 total lanes",
+   "description": "One-Way Traffic Closure for Drainage Work on Route SR-1",
+   "severity": "Expect Not Reported minute delays",
+   "type": "Construction",
+   "typeabbr": "C",
+   "source": "CALTRANS",
+   "start_loc": {
+    "county": "Example",
+    "postmile": "82.550",
+    "direction": "",
+    "description": "",
+    "location": ""
+   },
+   "end_loc": {
+    "county": "Example",
+    "postmile": "82.910",
+    "direction": "",
+    "description": "",
+    "location": ""
+   },
+   "location": ""
+  },
+  {
+   "id": "C1CB-SR-1-7",
+   "log-id": "1",
+   "updatedDate": "2026-08-11",
+   "updatedTime": "13:43:02",
+   "route": "SR-1",
+   "direction": "North / South",
+   "longitude": -123.800471,
+   "latitude": 39.698544,
+   "facility": "Conventional Hwy",
+   "type-closure": "One-Way Traffic",
+   "type-work": "Drainage Work",
+   "delay": "Not Reported",
+   "closed-lanes": "1",
+   "total-lanes": "2",
+   "uid": "C1CB-SR-1-7",
+   "starttime": [
+    "202603191401 UTC"
+   ],
+   "endtime": [
+    "202608310301 UTC"
+   ],
+   "updated": "202608112043 UTC",
+   "advice": "Lane(s) 1 closed out of 2 total lanes",
+   "description": "One-Way Traffic Closure for Drainage Work on Route SR-1",
+   "severity": "Expect Not Reported minute delays",
+   "type": "Construction",
+   "typeabbr": "C",
+   "source": "CALTRANS",
+   "start_loc": {
+    "county": "Example",
+    "postmile": "82.550",
+    "direction": "",
+    "description": "",
+    "location": ""
+   },
+   "end_loc": {
+    "county": "Example",
+    "postmile": "82.910",
+    "direction": "",
+    "description": "",
+    "location": ""
+   },
+   "location": ""
+  },
+  {
+   "id": "OR-205-0",
+   "route": "I205",
+   "source": "OregonDOT",
+   "latitude": 45.412,
+   "longitude": -122.573,
+   "description": "Incident on I205 northbound",
+   "type": "Info",
+   "starttime": [
+    "202608110900 UTC"
+   ],
+   "endtime": [
+    ""
+   ],
+   "updated": "202608112043 UTC"
+  },
+  {
+   "id": "OR-205-1",
+   "route": "I205",
+   "source": "OregonDOT",
+   "latitude": 45.412,
+   "longitude": -122.573,
+   "description": "Incident on I205 northbound",
+   "type": "Info",
+   "starttime": [
+    "202608110900 UTC"
+   ],
+   "endtime": [
+    ""
+   ],
+   "updated": "202608112043 UTC"
+  },
+  {
+   "id": "OR-205-2",
+   "route": "I205",
+   "source": "OregonDOT",
+   "latitude": 45.412,
+   "longitude": -122.573,
+   "description": "Incident on I205 northbound",
+   "type": "Info",
+   "starttime": [
+    "202608110900 UTC"
+   ],
+   "endtime": [
+    ""
+   ],
+   "updated": "202608112043 UTC"
+  },
+  {
+   "id": "OR-205-3",
+   "route": "I205",
+   "source": "OregonDOT",
+   "latitude": 45.412,
+   "longitude": -122.573,
+   "description": "Incident on I205 northbound",
+   "type": "Info",
+   "starttime": [
+    "202608110900 UTC"
+   ],
+   "endtime": [
+    ""
+   ],
+   "updated": "202608112043 UTC"
+  },
+  {
+   "id": "OR-205-4",
+   "route": "I205",
+   "source": "OregonDOT",
+   "latitude": 45.412,
+   "longitude": -122.573,
+   "description": "Incident on I205 northbound",
+   "type": "Info",
+   "starttime": [
+    "202608110900 UTC"
+   ],
+   "endtime": [
+    ""
+   ],
+   "updated": "202608112043 UTC"
+  },
+  {
+   "id": "OR-205-5",
+   "route": "I205",
+   "source": "OregonDOT",
+   "latitude": 45.412,
+   "longitude": -122.573,
+   "description": "Incident on I205 northbound",
+   "type": "Info",
+   "starttime": [
+    "202608110900 UTC"
+   ],
+   "endtime": [
+    ""
+   ],
+   "updated": "202608112043 UTC"
+  },
+  {
+   "source": "AZDOT",
+   "type": null,
+   "route": null
+  },
+  {
+   "source": "AZDOT",
+   "type": null,
+   "route": null
+  },
+  {
+   "source": "AZDOT",
+   "type": null,
+   "route": null
+  },
+  {
+   "source": "AZDOT",
+   "type": null,
+   "route": null
+  },
+  {
+   "source": "AZDOT",
+   "type": null,
+   "route": null
+  },
+  {
+   "source": "AZDOT",
+   "type": null,
+   "route": null
+  }
+ ]
+]

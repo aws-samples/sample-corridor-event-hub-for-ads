@@ -1,0 +1,58 @@
+# Allowlist for scripts/check-secrets.sh.
+#
+# Format, three fields, all required:
+#
+#   <path glob> :: <regex the hit must match> :: <why it is not a finding>
+#
+# THE REASON IS MANDATORY and it is the whole value of this file. An exception whose
+# justification was not worth typing is not one the next reader can evaluate, and this
+# repository is handed to state DOTs as a reference architecture. Same discipline as
+# the cdk-nag suppressions and .ash.yaml: every exception says why, in writing, next
+# to the thing it excuses.
+#
+# ENTRIES ARE NARROW BY DESIGN. Allowlisting a whole file by pattern `.` would disarm
+# the tripwire for exactly the file most likely to carry a real finding - the captured
+# fixtures are where the real personal information was found. Match the specific value.
+#
+# STALE ENTRIES FAIL THE CHECK. An entry that matches nothing is an exception standing
+# open for a finding that no longer exists, and it will silently excuse the next one.
+# Re-pin it or delete it.
+
+# ---------------------------------------------------------------------------
+# Agency ROLE addresses published in the feeds themselves.
+#
+# Both are the contact address a public agency publishes in its own feed metadata for
+# consumers to write to. Neither is traceable to an individual, which is the line DP-1
+# draws, and both are part of the real payload shape the adapters parse - replacing
+# them would make the fixture a worse test of the thing it exists to test.
+#
+# The scrubbed one is the contrast case worth knowing about: ok-odot-wzdx.json carried
+# a NAMED individual's government address in the same field, and that one was replaced
+# rather than allowlisted.
+# ---------------------------------------------------------------------------
+src/tests/fixtures/nws-alerts.json :: ^w-nws\.webmaster@noaa\.gov$ :: Published NWS webmaster role address, carried in the live api.weather.gov alert payload. A federal agency inbox, not an individual (DP-1).
+src/tests/fixtures/tx-dot-wzdx.json :: ^trv-hcr@txdot\.gov$ :: Published TxDOT feed-contact role address from road_event_feed_info. An agency inbox, not an individual (DP-1).
+src/config/sources.json :: ^trv-hcr@txdot\.gov$ :: The same published TxDOT role address, recorded as the catalog's agencyContact - which is what that field is FOR. Not an individual (DP-1).
+src/corridor_event_hub/adapters/tx_dot_wzdx.py :: ^trv-hcr@txdot\.gov$ :: The same published TxDOT role address, quoted in the adapter's header note about where the feed contact lives. Not an individual (DP-1).
+
+# ---------------------------------------------------------------------------
+# Synthetic replacements that still LOOK like the thing they replaced.
+#
+# The street-address pattern is deliberately loose - a street address is the hardest
+# of the three categories to match and the most damaging to publish - so it fires
+# on the fictional address that replaced the real one. Keeping the shape is the point:
+# the fixture exists to prove route matching is anchored rather than a substring test,
+# and it can only do that if a dispatch blob is still pasted into RoadwayName.
+# ---------------------------------------------------------------------------
+src/tests/fixtures/az511-events.json :: ^(100 N EXAMPLE RD|apt 100)$ :: Synthetic address that replaced a real residential one found in the captured payload. Kept in address SHAPE - directional prefix and unit designator included - so the anchored-route-match test still exercises a dispatch blob pasted into RoadwayName.
+src/scripts/make-synthetic-fixtures.py :: ^(100 N EXAMPLE RD|apt 100)$ :: The same invented address, in the generator that now writes the fixture rather than only in the fixture. Both entries are needed: the value has to be readable at the point it is authored, and the file it lands in is still scanned.
+
+# ---------------------------------------------------------------------------
+# Project governance addresses that MUST stay verbatim.
+#
+# Unlike everything above, this one is not data we ingested - it is the boilerplate
+# Amazon open-source projects are required to carry, and it only works if the address
+# is the real one. Substituting example.com here would leave a reader with no way to
+# report a code-of-conduct violation, which is the opposite of the point.
+# ---------------------------------------------------------------------------
+CONTRIBUTING.md :: ^opensource-codeofconduct@amazon\.com$ :: The Amazon Open Source Code of Conduct contact, quoted verbatim from the standard CONTRIBUTING template. A staffed program inbox, not an individual (DP-1), and the whole value of printing it is that it resolves.

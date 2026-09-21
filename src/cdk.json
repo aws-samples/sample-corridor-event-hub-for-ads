@@ -1,0 +1,37 @@
+{
+  "app": "npx tsx bin/corridor-event-hub.ts",
+  "watch": {
+    "include": ["bin/**", "lib/**", "config/**"],
+    "$comment": "Watch only the CDK app and its config. Editing a Python handler does NOT need a synth - it needs `npm run bundle`, so watching corridor_event_hub/ would trigger deploys against a stale bundle.",
+    "exclude": [
+      "README.md",
+      "cdk*.json",
+      "**/*.d.ts",
+      "**/*.js",
+      "tsconfig.json",
+      "package*.json",
+      "pyproject.toml",
+      "node_modules",
+      ".venv",
+      "build",
+      "corridor_event_hub",
+      "tests"
+    ]
+  },
+  "context": {
+    "prefix": "CorridorEventHub",
+    "natGateways": "1",
+    "flowLogs": "true",
+    "@aws-cdk/aws-lambda:recognizeLayerVersion": true,
+    "@aws-cdk/core:checkSecretUsage": true,
+    "@aws-cdk/core:target-partitions": ["aws"],
+    "@aws-cdk-containers/ecs-service-extensions:enableDefaultLogDriver": true,
+    "@aws-cdk/aws-ec2:uniqueImdsv2TemplateName": true,
+    "@aws-cdk/aws-iam:minimizePolicies": true,
+    "@aws-cdk/core:validateSnapshotRemovalPolicy": true,
+    "@aws-cdk/aws-s3:createDefaultLoggingPolicy": true,
+    "@aws-cdk/aws-s3:serverAccessLogsUseBucketPolicy": true,
+    "@aws-cdk/core:enablePartitionLiterals": true,
+    "@aws-cdk/aws-lambda:useCdkManagedLogGroup": false
+  }
+}
